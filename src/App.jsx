@@ -1,55 +1,28 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 
 
-import styles from "./Button.module.css"
-
 function App() {
+
+  const [theme, setTheme] =  useState(true)
+
   return (
-  <>
-    <h1 className='bg-blue-900 text-white my-4 text-center'>Named containers</h1>
-      <div className="bg-amber-200 h-50 container mx-auto">
-        container
+    <>    
+      <h1 className='bg-blue-900 text-white my-4 text-center'>Dark Mode</h1>
+     
+      <div data-theme = {theme ? "" : "dark"}>
+
+        <div className="bg-white text-gray-600 dark:text-white dark:bg-black">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nesciunt dolores quam incidunt ex dicta, a deserunt accusamus labore sint voluptate maxime consectetur, culpa quaerat mollitia, repudiandae quo fugit suscipit.
+        </div>
+        <button 
+          className='border-2 blue p-2'
+          onClick={()=>{setTheme(!theme)}}
+        >
+          dark / light</button>
       </div>
+    </>
 
-    <h1 className='bg-blue-900 text-white my-4 text-center'>  container </h1>
-
-  <div class="@container ">
-    <div class="flex flex-row @max-md:flex-col">
-      <div className='bg-blue-600 '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi cumque officiis, cupiditate sit error quis voluptatem eveniet expedita. Eaque, maxime aliquid praesentium reiciendis possimus ut reprehenderit in consequuntur nisi consectetur.</div>
-      <div className="bg-red-600  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus optio asperiores fugit ut corporis ad, quia itaque possimus, totam deserunt atque. Provident suscipit culpa sint! Expedita vero molestiae dignissimos dolores!</div>
-
-    </div>
-  </div>
-    <h1 className='bg-blue-900 text-white my-4 text-center'>Max-width container queries</h1>
-
-  <div className="@container flex justify-center items-center flex-col">
-    <div className="w-50 h-50 bg-red-500 @2xl:bg-blue-400">
-      <h1>container : min - width : 672 px 2xl</h1>
-    </div>
-    <div className='w-50 h-50 bg-green-300 @max-lg:bg-amber-300 '>
-      <h1>contaienr : max - width
-        max : 512 px large
-      </h1>
-    </div>
-  </div>
-  <h1 className='bg-blue-900 text-white my-4 text-center'>Named containers</h1>
-
-  <div className="@container/main">
-    <div className="flex flex-row m-3 @max-xl/main:flex-col ">
-      <div className="bg-red-500 @max-md:bg-green-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex in itaque enim suscipit maxime doloribus voluptatem explicabo assumenda nihil incidunt facilis non sunt deserunt temporibus minus odio, possimus amet sapiente!</div>
-      <div className="bg-yellow-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quaerat explicabo itaque, unde illo aliquid vel a labore nostrum optio architecto repellat dignissimos modi corporis similique, quibusdam praesentium tenetur error.</div>
-    </div>
-  </div>
-  <h1 className='bg-blue-900 text-white my-4 text-center'>Using arbitrary values</h1>
-  <div className="@container flex justify-center items-center">
-    <div className="w-50 h-50 bg-red-500 @max-[675px]:bg-amber-400">
-      Using arbitrary value
-      max-width : 675px
-    </div>
-  </div>
-
-
-  </>
 
 
   )

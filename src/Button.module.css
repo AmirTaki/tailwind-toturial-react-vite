@@ -1,9 +1,0 @@
-button{
-    padding:50px;
-}
-.testButton {
-    background-color: red;
-}
-.testButton:hover:not(:focus){
-    background-color: rgb(129, 214, 10);
-}
