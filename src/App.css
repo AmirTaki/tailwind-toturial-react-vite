@@ -1,69 +1,29 @@
 @import "tailwindcss";
 
-@theme {
-    --color-mint-500 : oklch(0.72 0.11 178);
-    --font-sans:  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-poppins: Poppins, sans-serif;
-    --font-script : Great Vibes, cursive;
-    --breakpoint-sm : 10rem /* 10 * 16 = 160 px */;
-    --breakpoint-large : 110rem /*  110 * 16 = 1760px*/;
-
-    /* --color-*: initial; */
-    /* --font-* : initial; */
-    /* --*: initial; */
-    --color-challenge : #5edd47;
-    --color-purple : #3f3cbb;
-    --color-midnight: #121063;
-    --color-tahiti: #3ab7bf;
-    --color-bermuda: #78dcca;
-    
-    /* animation */
-    --animate-fade-in-scale : fade-in-scale .8s infinite;
-
-    /* refercing other variables */
-    --color-blue-sky : #799ac0;
-    --color-red-sky : #cf4520;
-    --color-textColor : var(--color-blue-sky);
-    --color-backgroundColor : var(--color-red-sky);
-
-    @keyframes fade-in-scale {
-        0%{
-            opacity: .5;
-            transform : scale(.3)
-        }
-        100%{
-            opacity: 1;
-            transform : scale(1)
-        }
-        
-    }
-
-}
-
-
-
-@theme static {
-    --color-primmary : var(--color-red-500)
-}
-
 @layer components {
-    .typography {
-        p{
-            font-size: var(--text-base);
-            color:var(--color-red-700)
-        }
-        h1 {
-            font-size: var(--text-2xl--line-height);
-            font-weight: var(--font-weight-semibold);
-            color: var(--color-gray-950);
-        }
-        h2 {
-            font-size: var(--text-xl);
-            font-weight: var(--font-weight-semibold);
-            color: var(--color-green-800);
-        }
+  .typography {
+    color: var(--color-gray-950);
+    a {
+      color: var(--color-blue-500);
+      &:hover {
+        color: var(--color-blue-800);
+      }
     }
-
-
+  }
 }
 
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+}
+
+:root{
+    --acme-canvas-color: oklch(0.967 0.003 264.542);   
+}
+[data-theme="dark"]{
+    --acme-canvas-color: oklch(0.967 0.003 264.542);   
+}
+@theme inline {
+    --color-canvas : var(--acme-canvas-color)
+}
