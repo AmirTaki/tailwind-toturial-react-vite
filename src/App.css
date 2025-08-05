@@ -1,7 +1,74 @@
+/* @ import */
 @import "tailwindcss";
 
+/* @ theme */
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --breakpoint-3xl: 120rem;
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-avocado-400: oklch(0.92 0.19 114.08);
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --color-avocado-600: oklch(0.53 0.12 118.34);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  /* ... */
+}
 
 
+/* @ utility */
+@utility p-* {
+    padding: calc(.5rem * --value(integer));
+}
+
+/* @ variant */
+@custom-variant my-element (&:where(.dark, .dark *));
+
+.my-element {
+    background-color: white;
+    color: black;
+    @variant dark {
+        background-color: black;
+        color:white;
+    }
+}
+
+/* custom variant */
+@custom-variant alpha (&:where([data-theme="midnight"] *));
+
+@custom-variant alpha {
+    &:where([data-theme="midnight"] *) {
+    /* @slot; */
+    background-color:  var(--color-avocado-300);
+    color:gray;
+    padding:3px
+  }
+}
+
+/* apply */
+
+.select2-dropdown {
+    @apply text-lg font-bold text-gray-900 bg-blue-200
+}
+
+/* --aplpha() */
+
+.ClassAlpha {
+    background-color : --alpha(var(--color-avocado-400) / 50%)
+}
+
+/* --spacing() */
+
+
+.SpacingAlpha {
+    margin: --spacing(5);
+}
+/* theme() */
+.theme {
+    padding : theme(spacing.12)
+}
 
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */
 /* https://github.com/mobiwise-dev/tailwind-v4-utilities */
