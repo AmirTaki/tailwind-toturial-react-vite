@@ -5,74 +5,32 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>columns</h1>
-      <div className="" style={{columns : 4}}>
-        <div className='w-10 h-10 bg-amber-300'></div>
-        <div className='w-10 h-10 bg-blue-300'></div>
-        <div className='w-10 h-10 bg-red-300'></div>
-        <div className='w-10 h-10 bg-green-300'></div>
-        <div className='w-10 h-10 bg-orange-300'></div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>break-after</h1>
+      
+      <div className="columns-3  ">
+        <article className='border-dotted border-4 border-red-800  m-5 break-after-avoid'>
+          <h1>headeing</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
+        </article>
+        <article className='border-dotted border-4 border-red-800  break-after-column'>
+          <h1>headeing</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
+        </article>
+        <article className='border-dotted border-4 border-red-800 break-after-all'>
+          <h1>headeing</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
+        </article>
+        <article className='border-dotted border-4 border-red-800 m-5'>
+          <h1>headeing</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
+        </article>
+        <article className='border-dotted border-4 border-red-800'>
+          <h1>headeing</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
+        </article>
       </div>
-    
-    <h1 className='bg-blue-900  text-white my-4 text-center'>Setting by number</h1>
-    <div className="columns-3 bg-black">
-      <img src="https://cdn.pixabay.com/photo/2025/04/24/01/29/trees-9554109_1280.jpg" alt="" className="aspect-2/3 w-full" /> 
-      <img src="https://cdn.pixabay.com/photo/2025/07/20/07/37/hand-9723837_1280.jpg" alt="" className="aspect-square" />
-      <img src="https://cdn.pixabay.com/photo/2025/06/12/07/37/cow-lake-9655657_1280.jpg" alt="" className="aspect-retro" />
-      <img src="https://cdn.pixabay.com/photo/2025/07/22/22/21/iceberg-9729316_1280.jpg" alt="" className="aspect-16/9" />
-      <img src="https://cdn.pixabay.com/photo/2025/06/14/21/46/plane-9660343_1280.jpg" alt="" className="aspect-3/2" />
-      <img src="https://cdn.pixabay.com/photo/2025/07/09/12/15/fox-9704574_1280.jpg" alt="" className="aspect-auto" />
-      <img src="https://cdn.pixabay.com/photo/2022/10/04/11/47/glass-front-7498002_1280.jpg" alt="" className="aspect-square" />
-      <img src="https://cdn.pixabay.com/photo/2025/05/21/16/21/stork-9614143_1280.jpg" alt="" className="aspect-18/15" />
-      <img src="https://cdn.pixabay.com/photo/2025/04/04/16/44/clouds-9513725_1280.jpg" alt="" className="" />
-    </div>
-    
-    <h1 className='bg-blue-900  text-white my-4 text-center'>Setting by width</h1>
-
-    <div className=" bg-yellow-500 columns-sm">
-        <img src="https://cdn.pixabay.com/photo/2025/04/24/01/29/trees-9554109_1280.jpg" alt=" "/> 
-        <img src="https://cdn.pixabay.com/photo/2025/07/20/07/37/hand-9723837_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/06/12/07/37/cow-lake-9655657_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/07/22/22/21/iceberg-9729316_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/06/14/21/46/plane-9660343_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/04/24/01/29/trees-9554109_1280.jpg" alt="" /> 
-        <img src="https://cdn.pixabay.com/photo/2025/07/20/07/37/hand-9723837_1280.jpg" alt="" />
-    </div>
-
-    <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
 
 
-    <div className="bg-blue-300 columns-[250px]">
-      <div className="bg-red-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-green-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-yellow-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-    </div>
-    
-    <h1 className='bg-blue-900  text-white my-4 text-center'>Responsive design</h1>
-
-    <div className="@container">
-      <div className=" bg-red-200 columns-4  @lg:columns-2">
-        <img src="https://cdn.pixabay.com/photo/2025/04/24/01/29/trees-9554109_1280.jpg" alt=" "/> 
-        <img src="https://cdn.pixabay.com/photo/2025/07/20/07/37/hand-9723837_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/06/12/07/37/cow-lake-9655657_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/07/22/22/21/iceberg-9729316_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/06/14/21/46/plane-9660343_1280.jpg" alt=""  />
-        <img src="https://cdn.pixabay.com/photo/2025/04/24/01/29/trees-9554109_1280.jpg" alt="" /> 
-        <img src="https://cdn.pixabay.com/photo/2025/07/20/07/37/hand-9723837_1280.jpg" alt="" />
-      </div>
-    </div>
-    
-    <h1 className='bg-blue-900  text-white my-4 text-center'>Customizing your theme</h1>
-
-    <div className="bg-blue-300 columns-16xs">
-      <div className="bg-red-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-green-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-      <div className="bg-yellow-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil consequatur magni, non fugit molestiae magnam perferendis impedit. Quae sint praesentium quis consectetur exercitationem consequuntur incidunt minima voluptatibus corporis tenetur.</div>
-    </div>
     </>
 
 
