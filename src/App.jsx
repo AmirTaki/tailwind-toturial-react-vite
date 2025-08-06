@@ -5,24 +5,37 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>break-inside</h1>
-      {/* <div className="columns-2">
-        <p>Well, let me tell you something, ...</p>
-        <p className="break-inside-avoid-column">Sure, go ahead, laugh...</p>
-        <p>Maybe we can live without...</p>
-        <p>Look. If you think this is...</p>
-    </div> */}
+      <h1 className='bg-blue-900  text-white my-4 text-center'>box-decoration-break</h1>
 
-    <div className="columns-3 bg-gray-300">
-      <div className="bg-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, omnis.</div>
-      <div className="bg-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatum qui earum! Quidem, quo!</div>
-      <div className="bg-white mb-2 break-inside-avoid-column">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat eos maiores aut consequuntur a vitae maxime explicabo ipsa vel numquam?</div>
-      <div className="bg-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor dolorum sapiente enim.</div>
-      <div className="bg-white mb-2 break-inside-avoid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illo magni vel quis eaque!</div>     
-      <div className="bg-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ab ratione nisi dolor saepe autem sunt voluptatem quae consectetur exercitationem omnis aliquid labore itaque eum, ipsum sapiente incidunt consequatur? Officiis.</div>
-    </div>
 
- 
+      <div className="" >
+        <h2 style={{    backgroundImage: "linear-gradient(to right, #ffef7e, #b7f9e9)", width:'250px' , fontSize:"30px", display:"inline", padding:"5px" ,border:"2px solid gray" , boxDecorationBreak:"clone", WebkitBoxDecorationBreak:"clone" }}>
+          Box Decoration Break Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maiores exercitationem nam dicta non cumque sit qui in vitae veniam quae eum quam mollitia, sunt enim porro quos vero natus!
+        </h2>
+
+        <br />
+        <br />
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi aliquam animi est eveniet in? Sequi voluptates nobis iusto, suscipit nam voluptate corporis quos ducimus possimus rem eveniet nostrum laborum officiis!</p>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
+      <div className="bg-black">
+        <span className='box-decoration-slice bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white font-bold'>
+          Hello<br />World
+        </span>
+        <br />
+      </div>
+      <br />
+      <div className="bg-black">
+        <span className='box-decoration-clone bg-linear-to-r from-indigo-600 to-pink-500 px-2 text-white font-bold'>
+          Hello<br />World
+        </span>
+        <br />
+      </div>
+
 
     </>
 
