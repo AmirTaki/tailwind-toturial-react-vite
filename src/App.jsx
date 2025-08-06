@@ -5,31 +5,24 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>break-after</h1>
-      
-      <div className="columns-4  ">
-        <article className='border-dotted border-4 border-red-800  '>
-          <h1>headeing</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
-        </article>
-        <article className='border-dotted border-4 border-red-800  break-before-column'>
-          <h1>headeing</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
-        </article>
-        <article className='border-dotted border-4 border-red-800 break-before-column'>
-          <h1>headeing</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
-        </article>
-        <article className='border-dotted border-4 border-red-800 '>
-          <h1>headeing</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
-        </article>
-        <article className='border-dotted border-4 border-red-800'>
-          <h1>headeing</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
-        </article>
-      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>break-inside</h1>
+      {/* <div className="columns-2">
+        <p>Well, let me tell you something, ...</p>
+        <p className="break-inside-avoid-column">Sure, go ahead, laugh...</p>
+        <p>Maybe we can live without...</p>
+        <p>Look. If you think this is...</p>
+    </div> */}
 
+    <div className="columns-3 bg-gray-300">
+      <div className="bg-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, omnis.</div>
+      <div className="bg-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatum qui earum! Quidem, quo!</div>
+      <div className="bg-white mb-2 break-inside-avoid-column">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat eos maiores aut consequuntur a vitae maxime explicabo ipsa vel numquam?</div>
+      <div className="bg-white mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor dolorum sapiente enim.</div>
+      <div className="bg-white mb-2 break-inside-avoid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illo magni vel quis eaque!</div>     
+      <div className="bg-white mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ab ratione nisi dolor saepe autem sunt voluptatem quae consectetur exercitationem omnis aliquid labore itaque eum, ipsum sapiente incidunt consequatur? Officiis.</div>
+    </div>
+
+ 
 
     </>
 
