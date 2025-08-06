@@ -7,20 +7,20 @@ function App() {
     <>    
       <h1 className='bg-blue-900  text-white my-4 text-center'>break-after</h1>
       
-      <div className="columns-3  ">
-        <article className='border-dotted border-4 border-red-800  m-5 break-after-avoid'>
+      <div className="columns-4  ">
+        <article className='border-dotted border-4 border-red-800  '>
           <h1>headeing</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
         </article>
-        <article className='border-dotted border-4 border-red-800  break-after-column'>
+        <article className='border-dotted border-4 border-red-800  break-before-column'>
           <h1>headeing</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
         </article>
-        <article className='border-dotted border-4 border-red-800 break-after-all'>
+        <article className='border-dotted border-4 border-red-800 break-before-column'>
           <h1>headeing</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
         </article>
-        <article className='border-dotted border-4 border-red-800 m-5'>
+        <article className='border-dotted border-4 border-red-800 '>
           <h1>headeing</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus incidunt quas unde eius ab sit quibusdam quisquam, vero excepturi, temporibus nulla at tempore quasi deserunt debitis! Non, incidunt nobis?</p>
         </article>
