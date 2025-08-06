@@ -1,11 +1,8 @@
 @import "tailwindcss";
 
-:root {
-    --my-aspect-ratio : 20/10
-}
-
+/*  @theme  */
 @theme{
-      --aspect-retro: 4 / 3;    
+    --container-16xs: 14rem  /* 224px */
 }
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */
 /* https://github.com/mobiwise-dev/tailwind-v4-utilities */
