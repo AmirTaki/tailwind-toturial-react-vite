@@ -5,71 +5,23 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>clear</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Clearing left</h1>
-      
+      <h1 className='bg-blue-900  text-white my-4 text-center'>isolation</h1>
+      <div className="   bg-blue-500 flex flex-col items-center justify-center">
 
-      <div className="bg-amber-300">
-        <article>
-          <img  className = "float-left "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
-          <img  className = "float-right h-70 w-80 "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeL6XS4S2Btz31wHX_Hgq9NY2zIBcJrO79A&s" alt="" />
-          <p className='clear-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur numquam omnis voluptates consequuntur id doloribus. Quidem ullam, praesentium quae at earum quasi provident quos recusandae, dolorem nihil consequuntur illum modi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus molestias aperiam blanditiis expedita at debitis delectus quidem repudiandae ut, consequuntur nulla! Perferendis totam, culpa quaerat reprehenderit beatae labore nisi.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quidem molestiae sunt nostrum omnis magni accusantium, dolor inventore, porro a quo eaque maxime architecto vero nisi! Tempora maxime harum vitae?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi ducimus ipsam voluptatem doloribus natus excepturi aspernatur dolores officia ea labore aut illum, placeat deserunt accusantium unde rerum, repudiandae quibusdam.
-          </p>
-        </article>
+        <div className="w-20 h-20 bg-black border-2 border-black  isolate-auto mix-blend-color">
+          isolate auto
+        </div>
+        <div className="w-20 h-20 bg-blue border-2 border-black isolate mix-blend-color">
+          isolate 
+        </div>
       </div>
+    
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Clearing right</h1>
-      <div className="bg-red-300">
-        <article>
-          <img  className = "float-left  h-70 w-80"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
-          <img  className = "float-right "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeL6XS4S2Btz31wHX_Hgq9NY2zIBcJrO79A&s" alt="" />
-          <p className='clear-right'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur numquam omnis voluptates consequuntur id doloribus. Quidem ullam, praesentium quae at earum quasi provident quos recusandae, dolorem nihil consequuntur illum modi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus molestias aperiam blanditiis expedita at debitis delectus quidem repudiandae ut, consequuntur nulla! Perferendis totam, culpa quaerat reprehenderit beatae labore nisi.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quidem molestiae sunt nostrum omnis magni accusantium, dolor inventore, porro a quo eaque maxime architecto vero nisi! Tempora maxime harum vitae?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi ducimus ipsam voluptatem doloribus natus excepturi aspernatur dolores officia ea labore aut illum, placeat deserunt accusantium unde rerum, repudiandae quibusdam.
-          </p>
-        </article>
+    <br />
+      <div className="flex items-center justify-center">
+        <img className='w-100 isolate mix-blend-color' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
       </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Clearing all</h1>
-      <div className="bg-green-300">
-          <article>
-            <img  className = "float-left  h-70 w-80"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
-            <img  className = "float-right "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeL6XS4S2Btz31wHX_Hgq9NY2zIBcJrO79A&s" alt="" />
-            <p className='clear-both'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur numquam omnis voluptates consequuntur id doloribus. Quidem ullam, praesentium quae at earum quasi provident quos recusandae, dolorem nihil consequuntur illum modi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus molestias aperiam blanditiis expedita at debitis delectus quidem repudiandae ut, consequuntur nulla! Perferendis totam, culpa quaerat reprehenderit beatae labore nisi.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quidem molestiae sunt nostrum omnis magni accusantium, dolor inventore, porro a quo eaque maxime architecto vero nisi! Tempora maxime harum vitae?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi ducimus ipsam voluptatem doloribus natus excepturi aspernatur dolores officia ea labore aut illum, placeat deserunt accusantium unde rerum, repudiandae quibusdam.
-            </p>
-          </article>
-        </div>
-
-        <h1 className='bg-blue-900  text-white my-4 text-center'>Using logical properties</h1>
-        <div className="bg-orange-300">
-          <article dir = "rtl">
-            <img  className = "float-left  "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
-            <img  className = "float-right h-70 w-80 "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeL6XS4S2Btz31wHX_Hgq9NY2zIBcJrO79A&s" alt="" />
-            <p className='clear-end'>
-              ربما يمكننا العيش بدون مكتبات، أشخاص مثلي ومثلك. ربما. بالتأكيد، نحن أكبر من أن نغير العالم، ولكن ماذا عن ذلك الطفل الذي يجلس ويفتح كتابًا الآن في أحد فروع المكتبة المحلية ويجد رسومات للتبول والبول على القطة في القبعة والإخوة الصينيون الخمسة؟ ألا يستحق الأفضل؟ ينظر. إذا كنت تعتقد أن الأمر يتعلق بالغرامات المتأخرة والكتب المفقودة، فمن الأفضل أن تفكر مرة أخرى. يتعلق الأمر بحق ذلك الطفل في قراءة كتاب دون أن يتشوه عقله! أو: ربما يثيرك هذا يا سينفيلد؛ ربما هذه هي الطريقة التي تحصل بها على ركلاتك. أنت ورفاقك الطيبين.
-            </p>
-          </article>
-        </div>
-
-        <h1 className='bg-blue-900  text-white my-4 text-center'>Disabling clears</h1>
-        <div className="bg-amber-300">
-          <article>
-            <img  className = "float-left  h-70 w-80"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
-            <img  className = "float-right "src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeL6XS4S2Btz31wHX_Hgq9NY2zIBcJrO79A&s" alt="" />
-            <p className='clear-none'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur numquam omnis voluptates consequuntur id doloribus. Quidem ullam, praesentium quae at earum quasi provident quos recusandae, dolorem nihil consequuntur illum modi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius necessitatibus molestias aperiam blanditiis expedita at debitis delectus quidem repudiandae ut, consequuntur nulla! Perferendis totam, culpa quaerat reprehenderit beatae labore nisi.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quidem molestiae sunt nostrum omnis magni accusantium, dolor inventore, porro a quo eaque maxime architecto vero nisi! Tempora maxime harum vitae?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi ducimus ipsam voluptatem doloribus natus excepturi aspernatur dolores officia ea labore aut illum, placeat deserunt accusantium unde rerum, repudiandae quibusdam.
-            </p>
-          </article>
-        </div>
+    
     </>
   )
 }
