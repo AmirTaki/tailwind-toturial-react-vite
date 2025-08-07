@@ -4,20 +4,3 @@
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */
 /* https://github.com/mobiwise-dev/tailwind-v4-utilities */
 
-
-p {
-    padding: 0.125em 0;
-    background-image: linear-gradient(to right, #ffef7e, #b7f9e9);
-    border: none;
-    box-decoration-break:clone;
-    background-size: 0% 100%;
-    transition:  background 750ms ease-in-out;
-    display: inline;
-    background-repeat: no-repeat;
-    line-height: 20px;
-}
-
-
-p:hover {
-    background-size: 100% 100%;
-}
