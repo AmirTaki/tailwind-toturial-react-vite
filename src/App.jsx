@@ -5,23 +5,33 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>isolation</h1>
-      <div className="   bg-blue-500 flex flex-col items-center justify-center">
+      <h1 className='bg-blue-900  text-white my-4 text-center'>object-fit</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Resizing to cover</h1>
+     
+     <div className="bg-blue-400  flex justify-center items-center">
+      <img className='w-100 h-50 object-cover' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
+     </div>
 
-        <div className="w-20 h-20 bg-black border-2 border-black  isolate-auto mix-blend-color">
-          isolate auto
-        </div>
-        <div className="w-20 h-20 bg-blue border-2 border-black isolate mix-blend-color">
-          isolate 
-        </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Containing within</h1>
+      <div className="bg-blue-400  flex justify-center items-center">
+          <img className='w-100 h-50 object-contain' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
       </div>
-    
 
-    <br />
-      <div className="flex items-center justify-center">
-        <img className='w-100 isolate mix-blend-color' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR132TBAD0-GhGhN8_2Xr-3obkFd4NzFbk6Hg&s" alt="" />
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Stretching to fit</h1>
+      <div className="bg-blue-400  flex justify-center items-center">
+          <img className='w-100 h-50 object-fill' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
       </div>
-    
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Scaling down</h1>
+      <div className="bg-blue-400  flex justify-center items-center">
+        <img className='w-100 h-50 object-scale-down' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
+      </div>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using the original size</h1>
+      <div className="bg-blue-400  flex justify-center items-center">
+        <img className='w-100 h-50 object-none' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
+      </div>
+  
     </>
   )
 }
