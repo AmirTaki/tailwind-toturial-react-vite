@@ -5,90 +5,42 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>overflow</h1>
-    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>overscroll-behavior</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing parent overscrollingr</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Showing content that overflows</h1>
-      <div className="bg-blue-300 m-4 h-50 overflow-visible" >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates architecto hic, eligendi cum rem, odio nulla non reiciendis assumenda eveniet enim deserunt excepturi magnam, dolorum magni harum illum ex consectetur?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse facilis optio saepe libero laborum ipsum eaque ullam aliquam dolorum dolores accusantium quo facere nam doloremque ad numquam, eum in?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia porro maiores quasi delectus commodi velit ad? Enim dignissimos omnis fuga, deserunt soluta obcaecati cumque neque dolore id aperiam incidunt!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-      </div>
+      <div className="bg-red-500 overflow-y-scroll h-70  overscroll-contain">
+        <div className="bg-blue-400 w-50 float-right m-5 overflow-y-scroll h-50  ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed soluta quis modi velit veritatis optio esse ducimus eveniet, mollitia, pariatur illum quos officia maxime hic. Ea similique natus explicabo?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, veritatis dolore dolores, deleniti eligendi esse numquam, quisquam accusantium velit totam accusamus natus neque ipsa voluptates praesentium corporis at modi placeat!
+        </div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deleniti, dolore nam deserunt incidunt inventore. Culpa minus delectus earum consequuntur. Nemo corporis possimus eligendi maxime, consequuntur aut similique ullam culpa, magni porro corrupti voluptates ducimus optio aliquam, tempora dolores rerum ipsam commodi id vitae quasi impedit? Optio rerum provident magnam doloribus ab autem consequatur unde. Ipsam repellat necessitatibus sapiente, quaerat dolores dignissimos quidem impedit animi! Officia, quasi inventore facilis ea explicabo quae natus repellendus dolor earum cum quo dolore ab odio nostrum soluta eos possimus quis voluptatibus accusantium. Iste, neque provident soluta voluptates laborum fugit quis unde velit natus dolorem?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, veritatis amet, eligendi nemo dolores pariatur, quidem rerum atque recusandae dolor facere officia maxime fugiat distinctio harum! Tempore omnis placeat vitae!
+      </div>  
 
-      <h1 className='bg-blue-900  text-white my-15 text-center'>Hiding content that overflows</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing overscroll bouncing</h1>
 
-    <div className="bg-red-300 m-4 h-50 overflow-hidden" >
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates architecto hic, eligendi cum rem, odio nulla non reiciendis assumenda eveniet enim deserunt excepturi magnam, dolorum magni harum illum ex consectetur?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse facilis optio saepe libero laborum ipsum eaque ullam aliquam dolorum dolores accusantium quo facere nam doloremque ad numquam, eum in?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia porro maiores quasi delectus commodi velit ad? Enim dignissimos omnis fuga, deserunt soluta obcaecati cumque neque dolore id aperiam incidunt!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-    </div>
-    
-    <h1 className='bg-blue-900  text-white my-15 text-center'>Clip content that overflows</h1>
+      <div className="bg-green-500 overflow-y-scroll h-70 overscroll-y-none">
+          <div className="bg-blue-400 w-50 float-right m-5 overflow-y-scroll h-50  overscroll-y-none">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed soluta quis modi velit veritatis optio esse ducimus eveniet, mollitia, pariatur illum quos officia maxime hic. Ea similique natus explicabo?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, veritatis dolore dolores, deleniti eligendi esse numquam, quisquam accusantium velit totam accusamus natus neque ipsa voluptates praesentium corporis at modi placeat!
+          </div>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deleniti, dolore nam deserunt incidunt inventore. Culpa minus delectus earum consequuntur. Nemo corporis possimus eligendi maxime, consequuntur aut similique ullam culpa, magni porro corrupti voluptates ducimus optio aliquam, tempora dolores rerum ipsam commodi id vitae quasi impedit? Optio rerum provident magnam doloribus ab autem consequatur unde. Ipsam repellat necessitatibus sapiente, quaerat dolores dignissimos quidem impedit animi! Officia, quasi inventore facilis ea explicabo quae natus repellendus dolor earum cum quo dolore ab odio nostrum soluta eos possimus quis voluptatibus accusantium. Iste, neque provident soluta voluptates laborum fugit quis unde velit natus dolorem?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, veritatis amet, eligendi nemo dolores pariatur, quidem rerum atque recusandae dolor facere officia maxime fugiat distinctio harum! Tempore omnis placeat vitae!
+      </div>  
 
-    <div className="bg-gray-300 m-4 h-50 overflow-clip" >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates architecto hic, eligendi cum rem, odio nulla non reiciendis assumenda eveniet enim deserunt excepturi magnam, dolorum magni harum illum ex consectetur?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse facilis optio saepe libero laborum ipsum eaque ullam aliquam dolorum dolores accusantium quo facere nam doloremque ad numquam, eum in?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia porro maiores quasi delectus commodi velit ad? Enim dignissimos omnis fuga, deserunt soluta obcaecati cumque neque dolore id aperiam incidunt!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using the default overscroll behavior</h1>
 
-    <h1 className='bg-blue-900  text-white my-15 text-center'>Scrolling if needed</h1>
-     <div className="bg-yellow-300 m-4 h-50 overflow-auto" >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates architecto hic, eligendi cum rem, odio nulla non reiciendis assumenda eveniet enim deserunt excepturi magnam, dolorum magni harum illum ex consectetur?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse facilis optio saepe libero laborum ipsum eaque ullam aliquam dolorum dolores accusantium quo facere nam doloremque ad numquam, eum in?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia porro maiores quasi delectus commodi velit ad? Enim dignissimos omnis fuga, deserunt soluta obcaecati cumque neque dolore id aperiam incidunt!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-      </div>
-      
-      <h1 className='bg-blue-900  text-white my-15 text-center'>Scrolling horizontally if needed</h1>
+      <div className="bg-amber-500 overflow-y-scroll h-70 overscroll-auto">
+        <div className="bg-blue-400 w-50 float-right m-5 overflow-y-scroll h-50  ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed soluta quis modi velit veritatis optio esse ducimus eveniet, mollitia, pariatur illum quos officia maxime hic. Ea similique natus explicabo?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, veritatis dolore dolores, deleniti eligendi esse numquam, quisquam accusantium velit totam accusamus natus neque ipsa voluptates praesentium corporis at modi placeat!
+        </div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deleniti, dolore nam deserunt incidunt inventore. Culpa minus delectus earum consequuntur. Nemo corporis possimus eligendi maxime, consequuntur aut similique ullam culpa, magni porro corrupti voluptates ducimus optio aliquam, tempora dolores rerum ipsam commodi id vitae quasi impedit? Optio rerum provident magnam doloribus ab autem consequatur unde. Ipsam repellat necessitatibus sapiente, quaerat dolores dignissimos quidem impedit animi! Officia, quasi inventore facilis ea explicabo quae natus repellendus dolor earum cum quo dolore ab odio nostrum soluta eos possimus quis voluptatibus accusantium. Iste, neque provident soluta voluptates laborum fugit quis unde velit natus dolorem?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, veritatis amet, eligendi nemo dolores pariatur, quidem rerum atque recusandae dolor facere officia maxime fugiat distinctio harum! Tempore omnis placeat vitae!
+    </div>    
 
-     <div className="bg-amber-300 m-4 w-60 flex items-center justify-center m-auto overflow-x-auto gap-2  " >
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-     </div>
-
-      <h1 className='bg-blue-900  text-white my-15 text-center'>overflow x scroll : Scrolling horizontally always</h1>
-      <div className="bg-red-300 m-4 w-90 flex items-center justify-center m-auto overflow-x-scroll gap-2  " >
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-        <div className="border-2 w-40 h-20">item</div>
-     </div>
-
-    <h1 className='bg-blue-900  text-white my-15 text-center'>overflow y scroll : Scrolling vertically always</h1>
-     <div className="bg-blue-300 m-4 h-100 overflow-y-scroll" >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates architecto hic, eligendi cum rem, odio nulla non reiciendis assumenda eveniet enim deserunt excepturi magnam, dolorum magni harum illum ex consectetur?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse facilis optio saepe libero laborum ipsum eaque ullam aliquam dolorum dolores accusantium quo facere nam doloremque ad numquam, eum in?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia porro maiores quasi delectus commodi velit ad? Enim dignissimos omnis fuga, deserunt soluta obcaecati cumque neque dolore id aperiam incidunt!
-      </div>
-      
-      
-    <h1 className='bg-blue-900  text-white my-15 text-center'>overflow scroll : Scrolling in all directions</h1>
-    <div className="bg-green-300 m-4 h-50 overflow-scroll" >
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates architecto hic, eligendi cum rem, odio nulla non reiciendis assumenda eveniet enim deserunt excepturi magnam, dolorum magni harum illum ex consectetur?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse facilis optio saepe libero laborum ipsum eaque ullam aliquam dolorum dolores accusantium quo facere nam doloremque ad numquam, eum in?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias officia porro maiores quasi delectus commodi velit ad? Enim dignissimos omnis fuga, deserunt soluta obcaecati cumque neque dolore id aperiam incidunt!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam exercitationem, quaerat iste dolores laudantium pariatur at beatae incidunt, corrupti dolorum suscipit minima necessitatibus quam cupiditate minus. Alias, aut expedita? Reprehenderit.
-    </div>
     </>
+
   )
 }
 
