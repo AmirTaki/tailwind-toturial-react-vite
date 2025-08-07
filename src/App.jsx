@@ -1,37 +1,29 @@
 import './App.css';
-
+import img from "./assets/1016556-free-manhattan-wallpaper-2560x1600-4k.jpg"
 function App() {
 
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>object-fit</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Resizing to cover</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>object-position</h1>
+      <div className="grid grid-cols-3 gap-4 m-2" >
+      
+        <img className="size-44 object-top-left object-cover  w-50 h-20"  src={img} />
+        <img className="size-44 object-top object-cover  w-50  h-20"       src={img} />
+        <img className="size-44 object-top-right object-cover  w-50 h-20" src={img} />
+        <img className="size-44 object-left object-cover  w-50 h-20"      src={img} />
+        <img className="size-44 object-center object-cover  w-50 h-20"    src={img} />
+        <img className="size-44 object-right object-cover  w-50 h-20"     src={img} />
+        <img className="size-44 object-bottom-left object-cover  w-50 h-20" src={img} />
+        <img className="size-44 object-bottom object-cover  w-50 h-20"      src={img} />
+        <img className="size-44 object-bottom-right object-cover  w-50 h-20"src={img} />
      
-     <div className="bg-blue-400  flex justify-center items-center">
-      <img className='w-100 h-50 object-cover' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
-     </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Containing within</h1>
-      <div className="bg-blue-400  flex justify-center items-center">
-          <img className='w-100 h-50 object-contain' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
       </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Stretching to fit</h1>
-      <div className="bg-blue-400  flex justify-center items-center">
-          <img className='w-100 h-50 object-fill' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
-      </div>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Scaling down</h1>
-      <div className="bg-blue-400  flex justify-center items-center">
-        <img className='w-100 h-50 object-scale-down' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
-      </div>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using the original size</h1>
-      <div className="bg-blue-400  flex justify-center items-center">
-        <img className='w-100 h-50 object-none' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02trgHDHW84UXbXvI_T6anowDV7KuEcwHyg&s" alt="" />
-      </div>
-  
+      <img className="object-[25%_75%] object-cover w-250" src = {img}></img>
     </>
   )
 }
