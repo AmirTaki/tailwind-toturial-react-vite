@@ -5,39 +5,8 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>overscroll-behavior</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing parent overscrollingr</h1>
-
-      <div className="bg-red-500 overflow-y-scroll h-70  overscroll-contain">
-        <div className="bg-blue-400 w-50 float-right m-5 overflow-y-scroll h-50  ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed soluta quis modi velit veritatis optio esse ducimus eveniet, mollitia, pariatur illum quos officia maxime hic. Ea similique natus explicabo?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, veritatis dolore dolores, deleniti eligendi esse numquam, quisquam accusantium velit totam accusamus natus neque ipsa voluptates praesentium corporis at modi placeat!
-        </div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deleniti, dolore nam deserunt incidunt inventore. Culpa minus delectus earum consequuntur. Nemo corporis possimus eligendi maxime, consequuntur aut similique ullam culpa, magni porro corrupti voluptates ducimus optio aliquam, tempora dolores rerum ipsam commodi id vitae quasi impedit? Optio rerum provident magnam doloribus ab autem consequatur unde. Ipsam repellat necessitatibus sapiente, quaerat dolores dignissimos quidem impedit animi! Officia, quasi inventore facilis ea explicabo quae natus repellendus dolor earum cum quo dolore ab odio nostrum soluta eos possimus quis voluptatibus accusantium. Iste, neque provident soluta voluptates laborum fugit quis unde velit natus dolorem?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, veritatis amet, eligendi nemo dolores pariatur, quidem rerum atque recusandae dolor facere officia maxime fugiat distinctio harum! Tempore omnis placeat vitae!
-      </div>  
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing overscroll bouncing</h1>
-
-      <div className="bg-green-500 overflow-y-scroll h-70 overscroll-y-none">
-          <div className="bg-blue-400 w-50 float-right m-5 overflow-y-scroll h-50  overscroll-y-none">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed soluta quis modi velit veritatis optio esse ducimus eveniet, mollitia, pariatur illum quos officia maxime hic. Ea similique natus explicabo?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, veritatis dolore dolores, deleniti eligendi esse numquam, quisquam accusantium velit totam accusamus natus neque ipsa voluptates praesentium corporis at modi placeat!
-          </div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deleniti, dolore nam deserunt incidunt inventore. Culpa minus delectus earum consequuntur. Nemo corporis possimus eligendi maxime, consequuntur aut similique ullam culpa, magni porro corrupti voluptates ducimus optio aliquam, tempora dolores rerum ipsam commodi id vitae quasi impedit? Optio rerum provident magnam doloribus ab autem consequatur unde. Ipsam repellat necessitatibus sapiente, quaerat dolores dignissimos quidem impedit animi! Officia, quasi inventore facilis ea explicabo quae natus repellendus dolor earum cum quo dolore ab odio nostrum soluta eos possimus quis voluptatibus accusantium. Iste, neque provident soluta voluptates laborum fugit quis unde velit natus dolorem?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, veritatis amet, eligendi nemo dolores pariatur, quidem rerum atque recusandae dolor facere officia maxime fugiat distinctio harum! Tempore omnis placeat vitae!
-      </div>  
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using the default overscroll behavior</h1>
-
-      <div className="bg-amber-500 overflow-y-scroll h-70 overscroll-auto">
-        <div className="bg-blue-400 w-50 float-right m-5 overflow-y-scroll h-50  ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed soluta quis modi velit veritatis optio esse ducimus eveniet, mollitia, pariatur illum quos officia maxime hic. Ea similique natus explicabo?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, veritatis dolore dolores, deleniti eligendi esse numquam, quisquam accusantium velit totam accusamus natus neque ipsa voluptates praesentium corporis at modi placeat!
-        </div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deleniti, dolore nam deserunt incidunt inventore. Culpa minus delectus earum consequuntur. Nemo corporis possimus eligendi maxime, consequuntur aut similique ullam culpa, magni porro corrupti voluptates ducimus optio aliquam, tempora dolores rerum ipsam commodi id vitae quasi impedit? Optio rerum provident magnam doloribus ab autem consequatur unde. Ipsam repellat necessitatibus sapiente, quaerat dolores dignissimos quidem impedit animi! Officia, quasi inventore facilis ea explicabo quae natus repellendus dolor earum cum quo dolore ab odio nostrum soluta eos possimus quis voluptatibus accusantium. Iste, neque provident soluta voluptates laborum fugit quis unde velit natus dolorem?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, veritatis amet, eligendi nemo dolores pariatur, quidem rerum atque recusandae dolor facere officia maxime fugiat distinctio harum! Tempore omnis placeat vitae!
-    </div>    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>position</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Statically positioning elements</h1>
 
     </>
 
