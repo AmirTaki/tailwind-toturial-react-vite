@@ -1,11 +1,9 @@
 @import "tailwindcss";
 
 :root{
-    --my-basis : 24px
 }
 
 @theme {
-    --container-100xs : 30vw
 }
 
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */

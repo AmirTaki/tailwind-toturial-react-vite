@@ -5,36 +5,31 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-direction</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Row</h1>
-      <div className="flex flex-row  ">
-        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
-        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
-        <div className="  w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-wrap</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Don't wrap</h1>
+      <div className="flex flex-row flex-nowrap gap-2">
+        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
+        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
+        <div className="  w-200 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
       </div>
 
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Row reversed</h1>
-      <div className="flex flex-row-reverse ">
-        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
-        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
-        <div className="  w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
-      </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Column</h1>
-      <div className="flex flex-col items-center gap-2  bg-gray-200 ">
-        <div className=" w-80 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className=" w-80 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">02</div>
-        <div className="  w-80 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">03</div>
-      </div>
     
       
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Column reversed</h1>
-      <div className="flex flex-col-reverse items-center gap-2  bg-gray-200 ">
-        <div className=" w-80 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">01</div>
-        <div className=" w-80 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">02</div>
-        <div className="  w-80 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Wrap normally</h1>
+      <div className="flex flex-row flex-wrap gap-2">
+        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">01</div>
+        <div className=" w-50 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">02</div>
+        <div className="  w-200 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
       </div>
+      
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Wrap reversed</h1>
+
+      <div className="flex flex-row flex-wrap-reverse gap-2">
+        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
+        <div className=" w-50 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
+        <div className="  w-200 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
+      </div>
+      
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     </>
 
