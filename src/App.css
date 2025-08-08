@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root{
-     --my-position: 45px 25px 15px 90px 
-    }
+    --my-basis : 24px
+}
+
+@theme {
+    --container-100xs : 30vw
+}
 
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */
 /* https://github.com/mobiwise-dev/tailwind-v4-utilities */
