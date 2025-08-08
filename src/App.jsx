@@ -5,49 +5,17 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>visibility</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Making elements invisible</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>z-index</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     
-      <div className="flex justify-center items-center gap-4">
-        <div className="bg-blue-300 w-20 h-20 rounded-md flex items-center justify-center text-white">01</div>
-        <div className="invisible bg-blue-300 w-20 h-20 rounded-md flex items-center justify-center text-white">02</div>
-        <div className="bg-blue-300 w-20 h-20 rounded-md flex items-center justify-center text-white">03</div>
+      <div className="flex justify-center items-center ">
+        <div className="z-1 bg-blue-300 w-20 h-20 rounded-full flex items-center justify-center text-white border-2 border-black ">05</div>
+        <div className="z-2 bg-blue-300 w-20 h-20 rounded-full flex items-center justify-center text-white border-2 border-black -ml-4">04</div>
+        <div className="z-3 bg-blue-300 w-20 h-20 rounded-full flex items-center justify-center text-white border-2 border-black -ml-4">03</div>
+        <div className="z-4 bg-blue-300 w-20 h-20 rounded-full flex items-center justify-center text-white border-2 border-black -ml-4">02</div>
+        <div className="z-5 bg-blue-300 w-20 h-20 rounded-full flex items-center justify-center text-white border-2 border-black -ml-4">01</div>
       </div>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Collapsing elements</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Invoice #</th>
-            <th>Client</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>#100</td>
-            <td>Pendant Publishing</td>
-            <td>$2,000.00</td>
-          </tr>
-          <tr className='collapse'>
-            <td>#101</td>
-            <td>Kruger Industrial Smoothing</td>
-            <td>$545.00</td>
-          </tr>
-          <tr>
-            <td>#102</td>
-            <td>J. Peterman</td>
-            <td>$10,000.25</td>
-          </tr>
-        </tbody>
-      </table>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Making elements visible</h1>
-    
-      <div className="flex justify-center items-center gap-4">
-        <div className="bg-blue-300 w-20 h-20 rounded-md flex items-center justify-center text-white">01</div>
-        <div className="visible bg-blue-300 w-20 h-20 rounded-md flex items-center justify-center text-white">02</div>
-        <div className="bg-blue-300 w-20 h-20 rounded-md flex items-center justify-center text-white">03</div>
-      </div>
     </>
 
   )
