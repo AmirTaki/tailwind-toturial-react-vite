@@ -5,49 +5,41 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>flex</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
-      <div className="flex flex-row  gap-2">
-        <div className="flex-2  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
-        <div className="flex-4 w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
-        <div className=" flex-1 w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
-        <div className=" flex-none w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">04</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-grow</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Allowing items to grow</h1>
+      <div className="flex flex-row   bg-blue-400 gap-3">
+        <div className="grow-1 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
+        <div className="grow w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
+        <div className="grow-4 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
+        <div className="flex-none w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">04</div>
       </div>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>initial</h1>
-    {/* flex-initial => flex : 0 1 auto */}
-    {/* flex-auto => flex : 1 1 auto */}
-      <div className="flex flex-row   gap-2">
-        <div className=" flex-none w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
-        <div className="flex-initial  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
-        <div className=" flex-initial  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
+      
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Growing items based on factor</h1>
+      <div className="flex flex-row   bg-gray-300 gap-3">
+        <div className="grow-3 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
+        <div className="grow-1 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
+        <div className="grow-2 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
+        <div className="grow-4 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">04</div>
       </div>
-     
+  
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing items from growing</h1>
+      <div className="flex flex-row   bg-gray-300 gap-3">
+        <div className="grow w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
+        <div className="grow-0 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
+      </div>
+    
       <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
-      <div className="flex flex-row   gap-2 ">
-        <div className=" flex-2  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className=" flex-1 w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">02</div>
-        <div className=" flex-3  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">03</div>
+      <div className="flex flex-row   bg-gray-300 gap-3">
+        <div className="grow-[2] w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
+        <div className="grow-(--my-grow) w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
       </div>
-      <br></br>
-      <div className="flex flex-row   gap-2 ">
-        <div className=" flex-[0_1_10px]  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">01</div>
-        <div className=" flex-[0_1_30px] w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">02</div>
-        <div className=" flex-[0_1_50px]  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
-      </div>
-      <br></br>
-      <div className="flex flex-row   gap-2 ">
-        <div className=" flex-(--one-flex)  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">01</div>
-        <div className=" flex-(--two-flex) w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
-        <div className=" flex-(--three-flex)  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">03</div>
-      </div>
-      
-      
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     </>
 
   )
 }
+// https://www.youtube.com/watch?v=ZOK-DU7vT0A&t=66s
 
 export default App
 /*

@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
 :root{
-    --one-flex : 0 1 10px;
-    --two-flex : 2 0 auto;
-    --three-flex : 0 1 50px
+    --my-grow : 4
 }
 
 @theme {
