@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root{
-    --my-grow : 4
+    --my-shrink: 4
 }
 
 @theme {

@@ -5,35 +5,40 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-grow</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Allowing items to grow</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-shrink</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Allowing flex items to shrink</h1>
       <div className="flex flex-row   bg-blue-400 gap-3">
-        <div className="grow-1 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
-        <div className="grow w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
-        <div className="grow-4 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
-        <div className="flex-none w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">04</div>
+        <div className="flex-none w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
+        <div className="shrink w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
+        <div className="flex-none w-20 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
       </div>
-
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Growing items based on factor</h1>
-      <div className="flex flex-row   bg-gray-300 gap-3">
-        <div className="grow-3 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className="grow-1 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
-        <div className="grow-2 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
-        <div className="grow-4 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">04</div>
+     
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing items from shrinking</h1>
+      <div className="flex flex-row   bg-gray-400 gap-3">
+        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
+        <div className=" w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
+        <div className=" shrink-0 w-120 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
       </div>
-  
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing items from growing</h1>
-      <div className="flex flex-row   bg-gray-300 gap-3">
-        <div className="grow w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className="grow-0 w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
-      </div>
-    
+     
+     
       <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
-      <div className="flex flex-row   bg-gray-300 gap-3">
-        <div className="grow-[2] w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
-        <div className="grow-(--my-grow) w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
+      <div className="flex flex-row   bg-gray-400 gap-3">
+        <div className=" w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
+        <div className="shrink-3 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
+        <div className="shrink-0 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
+        <div className="shrink-2  w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">04</div>
+        <div className=" shrink-4 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">05</div>
       </div>
+   
+      <br /><br />
+      <div className="flex flex-row   bg-gray-400 gap-3">
+        <div className=" w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
+        <div className="shrink-(--my-shrink) w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
+        <div className="shrink-0 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
+        <div className="  w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">04</div>
+        <div className=" shrink-[calc(100vw-var(--sidebar))] w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">05</div>
+      </div>
+   
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     </>
 
