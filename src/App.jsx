@@ -5,30 +5,43 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-wrap</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Don't wrap</h1>
-      <div className="flex flex-row flex-nowrap gap-2">
-        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
-        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
-        <div className="  w-200 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>flex</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
+      <div className="flex flex-row  gap-2">
+        <div className="flex-2  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
+        <div className="flex-4 w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
+        <div className=" flex-1 w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
+        <div className=" flex-none w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">04</div>
       </div>
 
-    
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Wrap normally</h1>
-      <div className="flex flex-row flex-wrap gap-2">
-        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">01</div>
-        <div className=" w-50 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">02</div>
-        <div className="  w-200 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>initial</h1>
+    {/* flex-initial => flex : 0 1 auto */}
+    {/* flex-auto => flex : 1 1 auto */}
+      <div className="flex flex-row   gap-2">
+        <div className=" flex-none w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
+        <div className="flex-initial  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
+        <div className=" flex-initial  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
+      </div>
+     
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
+      <div className="flex flex-row   gap-2 ">
+        <div className=" flex-2  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
+        <div className=" flex-1 w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">02</div>
+        <div className=" flex-3  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">03</div>
+      </div>
+      <br></br>
+      <div className="flex flex-row   gap-2 ">
+        <div className=" flex-[0_1_10px]  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">01</div>
+        <div className=" flex-[0_1_30px] w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">02</div>
+        <div className=" flex-[0_1_50px]  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
+      </div>
+      <br></br>
+      <div className="flex flex-row   gap-2 ">
+        <div className=" flex-(--one-flex)  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">01</div>
+        <div className=" flex-(--two-flex) w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">02</div>
+        <div className=" flex-(--three-flex)  w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">03</div>
       </div>
       
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Wrap reversed</h1>
-
-      <div className="flex flex-row flex-wrap-reverse gap-2">
-        <div className=" w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
-        <div className=" w-50 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
-        <div className="  w-200 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">03</div>
-      </div>
       
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     </>
