@@ -5,40 +5,24 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>flex-shrink</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Allowing flex items to shrink</h1>
-      <div className="flex flex-row   bg-blue-400 gap-3">
-        <div className="flex-none w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
-        <div className="shrink w-100 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
-        <div className="flex-none w-20 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>order</h1>
+      <h1 className='bg-blue-900   text-white my-4 text-center'>Explicitly setting a sort order</h1>
+      
+      <div className="flex flex-row justify-around   bg-blue-400 gap-3">
+        <div className="order-3 w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">01</div>
+        <div className="order-1 w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">02</div>
+        <div className="order-2 w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">03</div>
       </div>
      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing items from shrinking</h1>
-      <div className="flex flex-row   bg-gray-400 gap-3">
-        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className=" w-10 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
-        <div className=" shrink-0 w-120 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Ordering items first or last</h1>
+      <div className="flex flex-row justify-around   bg-gray-200 gap-3">
+        <div className="order-last w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">01</div>
+        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">02</div>
+        <div className="order-first w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">03</div>
+        <div className=" w-30 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">04</div>
       </div>
-     
-     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
-      <div className="flex flex-row   bg-gray-400 gap-3">
-        <div className=" w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className="shrink-3 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
-        <div className="shrink-0 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
-        <div className="shrink-2  w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">04</div>
-        <div className=" shrink-4 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">05</div>
-      </div>
-   
-      <br /><br />
-      <div className="flex flex-row   bg-gray-400 gap-3">
-        <div className=" w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-red-400">01</div>
-        <div className="shrink-(--my-shrink) w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-blue-400">02</div>
-        <div className="shrink-0 w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-green-400">03</div>
-        <div className="  w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-yellow-400">04</div>
-        <div className=" shrink-[calc(100vw-var(--sidebar))] w-40 h-20 rounded-3xl flex items-center justify-center text-white bg-pink-400">05</div>
-      </div>
-   
+      
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     </>
 
