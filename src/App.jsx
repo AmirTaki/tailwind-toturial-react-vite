@@ -4,48 +4,64 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>grid-auto-flow</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>GRID FLOW COLUMN</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>grid-auto-columns</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>auto  cols auto</h1>
 
       
-      <div className="bg-gray-200 grid grid-cols-3  grid-rows-3 gap-3  grid-flow-col">
-        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
-        <div className=" h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
-        <div className=" h-20 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
-        <div className=" h-20  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
-        <div className=" h-20  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
-        <div className=" h-20 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
-        <div className=" h-20  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
-        <div className=" h-20  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
-        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
+      <div className="bg-gray-200 grid auto-cols-auto  ">
+        <div className=" h-4 bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-4 bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-4 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+        <div className=" h-4 bg-black rounded-4xl flex items-center justify-center text-white">04</div>
+        <div className=" h-4 bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
+        <div className=" h-4 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-4 bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
+        <div className=" h-4 bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
+        <div className=" h-4 bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
       </div>
           
+      <h1 className='bg-blue-900  text-white my-4 text-center'>auto cols min</h1>
+      <div className="bg-gray-200 grid auto-cols-min  ">
+        <div className=" h-10  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-10  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-10  bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+        <div className=" h-10  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
+        <div className=" h-10  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
+        <div className=" h-10  bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-10  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
+        <div className=" h-10  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
+        <div className=" h-10  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
+      </div>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>auto-cols-max</h1>
+      <div className="bg-gray-200 grid auto-cols-max  ">
+        <div className=" h-10  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-10  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-10  bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+        <div className=" h-10  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
+        <div className=" h-10  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
+        <div className=" h-10  bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-10  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
+        <div className=" h-10  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
+        <div className=" h-10  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>auto-cols-fr</h1>
+      <div className="bg-gray-200 grid auto-cols-fr  ">
+        <div className=" h-10  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-10  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-10  bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+        <div className=" h-10  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
+        <div className=" h-10  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
+        <div className=" h-10  bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-10  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
+        <div className=" h-10  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
+        <div className=" h-10  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       
 
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>GRID FLOW ROW</h1> 
-      <div className="bg-gray-200 grid grid-cols-3  grid-rows-3 gap-3  grid-flow-row">
-        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
-        <div className=" h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
-        <div className=" h-20 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
-        <div className=" h-20  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
-        <div className=" h-20  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
-        <div className=" h-20 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
-        <div className=" h-20  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
-        <div className=" h-20  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
-        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
-      </div>
-          
-      <h1 className='bg-blue-900  text-white my-4 text-center'>GRID FLOW DENSE</h1> 
-      <div className="bg-gray-200 grid grid-cols-3  grid-rows-3 gap-3  grid-flow-donse">
-        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
-        <div className=" h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
-        <div className=" h-20 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
-        <div className=" h-20  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
-        <div className="col-start-2 row-start-2 row-span-3   bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
-        <div className=" h-20 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
-        <div className=" h-20  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
-      </div>
           
     </>
 
