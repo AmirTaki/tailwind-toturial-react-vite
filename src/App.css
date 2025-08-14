@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root{
-    --my-grid:5 
+    --my-columns: 1 / span 2 
 }
 
 @theme {
