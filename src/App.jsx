@@ -4,41 +4,49 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>grid-row</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Spanning rows</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>grid-auto-flow</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>GRID FLOW COLUMN</h1>
 
       
-      <div className="bg-gray-200 grid grid-flow-col  grid-rows-3 gap-3  ">
-        <div className=" row-span-3   bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
-        <div className=" col-span-3 h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
-        <div className=" col-span-2 row-span-2  bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+      <div className="bg-gray-200 grid grid-cols-3  grid-rows-3 gap-3  grid-flow-col">
+        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-20 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
         <div className=" h-20  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
         <div className=" h-20  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
-        <div className=" row-span-3   bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-20 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
         <div className=" h-20  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
         <div className=" h-20  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
         <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
       </div>
           
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Starting and ending lines</h1> 
       
-      <div className="bg-gray-200 grid grid-flow-col  grid-rows-3 gap-3  ">
-        <div className="row-start-2 row-span-2   bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
-        <div className="row-start-1 row-end-3 h-30   bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
-        <div className="row-start-1 row-end-4   bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
-      </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1> 
-      <div className="bg-gray-200 grid grid-cols-2  grid-rows-3 gap-3  ">
-        <div className="h-30 w-30  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
-        <div className="h-30 w-30  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
-        <div className=" w-30 row-[span_3_/_span_4]  bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
-      <div className=" h-30 w-30  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
-
-      </div>
 
       
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1> 
+      <h1 className='bg-blue-900  text-white my-4 text-center'>GRID FLOW ROW</h1> 
+      <div className="bg-gray-200 grid grid-cols-3  grid-rows-3 gap-3  grid-flow-row">
+        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-20 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+        <div className=" h-20  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
+        <div className=" h-20  bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
+        <div className=" h-20 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-20  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
+        <div className=" h-20  bg-indigo-400 rounded-4xl flex items-center justify-center text-white">08</div>
+        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">09</div>
+      </div>
+          
+      <h1 className='bg-blue-900  text-white my-4 text-center'>GRID FLOW DENSE</h1> 
+      <div className="bg-gray-200 grid grid-cols-3  grid-rows-3 gap-3  grid-flow-donse">
+        <div className=" h-20  bg-red-400 rounded-4xl flex items-center justify-center text-white">01</div>
+        <div className=" h-20  bg-blue-400 rounded-4xl flex items-center justify-center text-white" >02</div>
+        <div className=" h-20 bg-green-400 rounded-4xl flex items-center justify-center text-white">03</div>
+        <div className=" h-20  bg-black rounded-4xl flex items-center justify-center text-white">04</div>
+        <div className="col-start-2 row-start-2 row-span-3   bg-yellow-400 rounded-4xl flex items-center justify-center text-white">05</div>
+        <div className=" h-20 bg-pink-400 rounded-4xl flex items-center justify-center text-white">06</div>
+        <div className=" h-20  bg-amber-400 rounded-4xl flex items-center justify-center text-white">07</div>
+      </div>
+          
     </>
 
   )
