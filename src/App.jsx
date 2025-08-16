@@ -4,93 +4,95 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>margin</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>margin basic</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>width</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>basic example  'w-number'</h1>
+      <div className="flex flex-col bg-gray-300">
+        <div className="w-96 h-10 bg-yellow-400 flex justify-center items-center rounded-3xl">w-96</div>
+        <div className="w-80 h-10 bg-blue-400 flex justify-center items-center rounded-3xl">w-80</div>
+        <div className="w-64 h-10 bg-red-400 flex justify-center items-center rounded-3xl">w-64</div>
+        <div className="w-48 h-10 bg-green-400 flex justify-center items-center rounded-3xl">w-48</div>
+        <div className="w-40 h-10 bg-pink-400 flex justify-center items-center rounded-3xl">w-40</div>
+        <div className="w-32 h-10 bg-orange-400 flex justify-center items-center rounded-3xl">w-32</div>
+        <div className="w-24 h-10 bg-emerald-400 flex justify-center items-center rounded-3xl">w-24</div>
+      </div>
 
-      <div className="flex items-center justify-center bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 ">
-          <div className="w-20 h-20 bg-blue-400 m-8">m-8</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a percentage</h1>
+      <div className="flex flex-col bg-gray-300 gap-4">
+        <div className="flex">
+          <div className="w-1/2 h-10 bg-yellow-400 flex justify-center items-center rounded-3xl">w-1/2</div>
+          <div className="w-1/2 h-10 bg-blue-400 flex justify-center items-center rounded-3xl">w-1/2</div>
+        </div>
+        
+        <div className="flex">
+          <div className="w-2/5 h-10 bg-red-400 flex justify-center items-center rounded-3xl">w-2/5</div>
+          <div className="w-3/5 h-10 bg-green-400 flex justify-center items-center rounded-3xl">w-3/5</div>
+        </div>
+    
+        <div className="flex">
+          <div className="w-1/3 h-10 bg-pink-400 flex justify-center items-center rounded-3xl">w-1/3</div>
+          <div className="w-2/3 h-10 bg-orange-400 flex justify-center items-center rounded-3xl">w-2/3</div>
+        </div>
+        <div className="flex">
+          <div className="w-1/4 h-10 bg-yellow-400 flex justify-center items-center rounded-3xl">w-1/4</div>
+          <div className="w-3/4 h-10 bg-emerald-400 flex justify-center items-center rounded-3xl">w-3/4</div>
+        </div>
+    
+    
+        <div className="flex">
+          <div className="w-1/5 h-10 bg-yellow-800 flex justify-center items-center rounded-3xl">w-1/5</div>
+          <div className="w-4/5 h-10 bg-blue-800 flex justify-center items-center rounded-3xl">w-4/2</div>
+        </div>
+
+        <div className="flex">
+          <div className="w-1/6 0h-10 bg-red-800 flex justify-center items-center rounded-3xl">w-1/6</div>
+          <div className="w-5/6 h-10 bg-green-800 flex justify-center items-center rounded-3xl">w-5/6</div>
+        </div>
+    
+        <div className="flex">
+          <div className="w-full h-10 bg-pink-400 flex justify-center items-center rounded-3xl">w-full</div>
         </div>
       </div>
-      <hr />
-      <div className="flex items-center justify-center bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 mx-3">mx-3</div>
-        <div className="w-20 h-20 bg-blue-400 mx-3">mx-3</div>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using the container scale</h1>
+      <div className="flex flex-col bg-gray-300">
+
+        <div className="w-3xl h-10 bg-green-400 flex justify-center items-center rounded-3xl">w-3xl</div>
+        <div className="w-2xl h-10 bg-orange-400 flex justify-center items-center rounded-3xl">w-2xl</div>
+        <div className="w-xl h-10 bg-yellow-400 flex justify-center items-center rounded-3xl">w-xl</div>
+        <div className="w-lg h-10 bg-blue-400 flex justify-center items-center rounded-3xl">w-lg</div>
+        <div className="w-md h-10 bg-red-400 flex justify-center items-center rounded-3xl">w-md</div>
+        <div className="w-sm h-10 bg-green-400 flex justify-center items-center rounded-3xl">w-sm</div>
+        <div className="w-xs h-10 bg-pink-400 flex justify-center items-center rounded-3xl">w-xs</div>
+        <div className="w-2xs h-10 bg-orange-400 flex justify-center items-center rounded-3xl">w-2xs</div>
+        <div className="w-3xs h-10 bg-emerald-400 flex justify-center items-center rounded-3xl">w-3xs</div>
       </div>
-            <hr />
-
-      <div className="flex items-center justify-center flex-col bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 my-3">my-3</div>
-        <div className="w-20 h-20 bg-blue-400 my-3">my-3</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Matching the viewport</h1>
+      
+      <div className="flex flex-col bg-gray-300 w-screen">
+        <div className="  bg-green-400 flex justify-center items-center rounded-3xl">w-screen</div>
+        <div className="  bg-blue-400 flex justify-center items-center rounded-3xl">w-screen</div>
       </div>
-      <hr />
+  
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Setting both width and height</h1>
+      <div className="flex flex-col bg-gray-300 ">
+        <div className=" size-20 bg-red-400 flex justify-center items-center rounded-3xl">size-20</div>
+        <div className=" size-full bg-yellow-400 flex justify-center items-center rounded-3xl">size-full</div>
+        <div className="size-[30vw] bg-pink-400 flex justify-center items-center rounded-3xl">size-[30vw = value]</div>
 
-      <div className="flex items-center justify-center flex-col bg-gray-300 h-50 ">
-        <div className="w-30 h-20 bg-amber-400 "></div>
-        <div className="w-20 h-20 bg-blue-400 -mt-8">-mt-8</div>
       </div>
-
-      <hr />
-
-      <div className="flex items-center justify-center flex-row bg-gray-300 h-50 ">
-        <div className="w-30 h-20 bg-amber-400 "></div>
-        <div className="w-20 h-20 bg-blue-400 ms-7">ms-7</div>
-      </div>
-      <hr />
-
-      <div className="flex items-center justify-center flex-row bg-gray-300 h-50 ">
-        <div className="w-30 h-20 bg-amber-400 me-8">me-8</div>
-        <div className="w-20 h-20 bg-blue-400 ms-7"></div>
-      </div>
-      <hr />
-
-      <div className="space-x-4 flex items-center justify-start flex-row bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 ">space - x</div>
-        <div className="w-20 h-20 bg-blue-400 ">space - x</div>
-        <div className="w-20 h-20 bg-red-400 ">space - x</div>
-      </div>
-      <hr />
-
-      <div className="space-x-4 space-x-reverse flex items-center justify-start flex-row-reverse bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 ">space - x - reverse</div>
-        <div className="w-20 h-20 bg-blue-400 "></div>
-        <div className="w-20 h-20 bg-red-400 "></div>
-      </div>
-      <hr />
-
-      <div className="space-y-3 flex items-center justify-start flex-col bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 ">01</div>
-        <div className="w-20 h-20 bg-blue-400 ">02</div>
-        <div className="w-20 h-20 bg-red-400 "> space-y-3</div>
-      </div>
-      <hr />
-
-      <div className="space-y-3 flex items-center justify-start flex-col bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 ">01</div>
-        <div className="w-20 h-20 bg-blue-400 ">02</div>
-        <div className="w-20 h-20 bg-red-400 "> space-y-3</div>
-      </div>
-      <hr />
-
-      <div className="space-y-reverse space-y-4 flex items-center justify-start flex-col-reverse bg-gray-300 h-50 ">
-        <div className="w-20 h-20 bg-amber-400 ">01</div>
-        <div className="w-20 h-20 bg-blue-400 ">02</div>
-        <div className="w-20 h-20 bg-red-400 "> space-y-3 reverse</div>
-      </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       
 
           
     </>
 
-  )
+)
 }
 // https://www.youtube.com/@Codevolution/playlists
 
 export default App
 /*
 small   : sm  =>  640px
+
 medium  : md  =>  768px
 large   : lg  =>  1024px
 XLarge  : xl  =>  1280px
