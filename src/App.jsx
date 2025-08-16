@@ -4,46 +4,28 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>height</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>basic example  'h-number'</h1>
-      <div className="flex  bg-gray-300 items-end justify-center gap-4">
-        <div className="w-10 h-96 bg-yellow-400 flex justify-center items-center rounded-xl">h-96</div>
-        <div className="w-10 h-80 bg-blue-400 flex justify-center items-center rounded-xl">h-80</div>
-        <div className="w-10 h-64 bg-red-400 flex justify-center items-center rounded-xl">h-64</div>
-        <div className="w-10 h-48 bg-green-400 flex justify-center items-center rounded-xl">h-48</div>
-        <div className="w-10 h-40 bg-pink-400 flex justify-center items-center rounded-xl">h-40</div>
-        <div className="w-10 h-32 bg-orange-400 flex justify-center items-center rounded-xl">h-32</div>
-        <div className="w-10 h-24 bg-emerald-400 flex justify-center items-center rounded-xl">h-24</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>font-family</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>basic example  </h1>
+      <div className="flex flex-col  bg-gray-300  justify-center gap-4">
+        <p className='font-sans'>The quick brown fox jumps over the lazy dog. sans</p>
+        <p className='font-serif'>The quick brown fox jumps over the lazy dog. serif</p>
+        <p className='font-mono'>The quick brown fox jumps over the lazy dog. mono</p>
       </div>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a percentage</h1>
-      <div className="flex  bg-gray-300 items-end justify-center gap-4 h-100">
-        <div className="w-10 h-full bg-yellow-400 flex justify-center items-center rounded-xl">h-full</div>
-        <div className="w-10 h-9/10 bg-blue-400 flex justify-center items-center rounded-xl">h-9/10</div>
-        <div className="w-10 h-3/4 bg-red-400 flex justify-center items-center rounded-xl">h-3/4</div>
-        <div className="w-10 h-1/2 bg-green-400 flex justify-center items-center rounded-xl">h-1/2</div>
-        <div className="w-10 h-1/3 bg-pink-400 flex justify-center items-center rounded-xl">h-1/3</div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
+      
+      <div className="flex flex-col  bg-gray-300  justify-center gap-4">
+        <p className='font-[Open_Sans]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est dolores, molestiae ad voluptates amet porro optio, aspernatur, incidunt eaque quis saepe voluptatibus vel suscipit facere at reprehenderit delectus hic ipsam?</p>
       </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Matching viewport</h1>
-      <div className="flex  bg-gray-300 items-end justify-center gap-4 h-screen">
-        <div className="w-10 h-screen bg-yellow-400 flex justify-center items-center rounded-xl">screen</div>
-        <div className="w-10 h-[80vh] bg-blue-400 flex justify-center items-center rounded-xl">80vh</div>
-        <div className="w-10 h-[50vh] bg-red-400 flex justify-center items-center rounded-xl">50vh</div>
-        <div className="w-10 h-[25vh] bg-green-400 flex justify-center items-center rounded-xl">25vh</div>
-        <div className="w-10 h-[15vh] bg-pink-400 flex justify-center items-center rounded-xl">15vh</div>
+      <br />
+      <div className="flex flex-col  bg-blue-300  justify-center gap-4">
+        <p className='font-[family-name:--my-font]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est dolores, molestiae ad voluptates amet porro optio, aspernatur, incidunt eaque quis saepe voluptatibus vel suscipit facere at reprehenderit delectus hic ipsam?</p>
       </div>
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Setting both width and height</h1>
-      <div className="flex  bg-gray-300 items-start justify-center gap-4 ">
-        <div className=" size-16 bg-yellow-400 flex justify-center items-center rounded-xl">screen</div>
-        <div className=" size-20 bg-blue-400 flex justify-center items-center rounded-xl">80vh</div>
-        <div className=" size-24 bg-red-400 flex justify-center items-center rounded-xl">50vh</div>
-        <div className=" size-32 bg-green-400 flex justify-center items-center rounded-xl">25vh</div>
-        <div className=" size-52 bg-pink-400 flex justify-center items-center rounded-xl">15vh</div>
-      </div>
-
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Customizing your theme</h1>
           
+      <div className="flex flex-col  bg-gray-300  justify-center gap-4">
+        <p className='font-display'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est dolores, molestiae ad voluptates amet porro optio, aspernatur, incidunt eaque quis saepe voluptatibus vel suscipit facere at reprehenderit delectus hic ipsam?</p>
+      </div>
     </>
 
 )

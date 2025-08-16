@@ -1,11 +1,21 @@
 @import "tailwindcss";
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
 
 :root{
-    --my-columns: 1 / span 2 
+    --my-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 @theme {
+    --font-display : "Oswald"
 }
+/* @font-face {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/Oswald.woff2") format("woff2");
+} */
 
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */
 /* https://github.com/mobiwise-dev/tailwind-v4-utilities */
