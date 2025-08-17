@@ -4,30 +4,32 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>font-weight</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>font-stretch</h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
       </div>
 
   
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <p className='bg-amber-100 font-thin' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-amber-200 font-extralight' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-amber-300 font-light' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-amber-400 font-normal' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-amber-500 font-medium' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-amber-600 font-semibold' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-green-100 font-bold' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-green-200 font-black' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <h3 className='bg-amber-100 font-stretch-ultra-condensed' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-amber-200 font-stretch-extra-condensed' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-amber-300 font-stretch-condensed'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-amber-400 font-stretch-semi-condensed' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-amber-500 font-stretch-noraml' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-amber-600 font-stretch-expanded' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-green-100 font-stretch-extra-expanded' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-green-200 font-stretch-ultra-expanded' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
       </div>
     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>sing a custom value  </h1>
-  
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using percentages  </h1>
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <p className='bg-green-100 font-[1000]' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-green-200 font-(--my-font-weight)' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
-        <p className='bg-green-300 font-extrablack' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <h3 className='bg-amber-100 font-stretch-50%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-amber-200 font-stretch-100%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-green-100 font-stretch-150%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+        <h3 className='bg-green-200 font-stretch-500%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
       </div>
+  
+ 
       
       
     </>
