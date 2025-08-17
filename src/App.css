@@ -1,13 +1,11 @@
 @import "tailwindcss";
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
 
 :root{
-    ---my-font-weight : 600;
 
 }
 
 @theme {
-     --font-weight-extrablack: 300; 
+     
 }
 
 /* https://www.youtube.com/watch?v=F0k0Nhmjx8w&list=PLYsQCPM-_9mUGBBx7kJLOWncMu3soxOEk */

@@ -4,31 +4,20 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>font-stretch</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>letter-spacing</h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
-      <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-      </div>
-
-  
-      <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <h3 className='bg-amber-100 font-stretch-ultra-condensed' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-amber-200 font-stretch-extra-condensed' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-amber-300 font-stretch-condensed'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-amber-400 font-stretch-semi-condensed' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-amber-500 font-stretch-noraml' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-amber-600 font-stretch-expanded' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-green-100 font-stretch-extra-expanded' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-green-200 font-stretch-ultra-expanded' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
+    
+      <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
+        <p className='bg-amber-300 tracking-tighter'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='bg-blue-300 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='bg-red-300 tracking-normal'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='bg-green-300 tracking-wide'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='bg-pink-300 tracking-wider'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='bg-orange-300 tracking-widest'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='bg-emerald-300 tracking-[.30em]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        
       </div>
     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using percentages  </h1>
-      <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <h3 className='bg-amber-100 font-stretch-50%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-amber-200 font-stretch-100%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-green-100 font-stretch-150%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-        <h3 className='bg-green-200 font-stretch-500%' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</h3>
-      </div>
-  
  
       
       
