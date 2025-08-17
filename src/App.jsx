@@ -4,20 +4,20 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>font-smoothing</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Grayscale antialiasing  </h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>font-style</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Italicizing text  </h1>
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
       </div>
 
   
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <p className='antialiased  '>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='italic'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
       </div>
     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Subpixel antialiasing  </h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Displaying text normally  </h1>
       
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <p className='subpixel-antialiased  '>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='not-italic  '>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
       </div>
     </>
 
