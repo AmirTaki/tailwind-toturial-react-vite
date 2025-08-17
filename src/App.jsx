@@ -4,21 +4,32 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>font-style</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Italicizing text  </h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>font-weight</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
       </div>
 
   
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <p className='italic'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='bg-amber-100 font-thin' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-amber-200 font-extralight' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-amber-300 font-light' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-amber-400 font-normal' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-amber-500 font-medium' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-amber-600 font-semibold' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-green-100 font-bold' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-green-200 font-black' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
       </div>
     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Displaying text normally  </h1>
-      
+      <h1 className='bg-blue-900  text-white my-4 text-center'>sing a custom value  </h1>
+  
       <div className="flex flex-col  bg-gray-300  justify-center gap-4">
-        <p className='not-italic  '>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='bg-green-100 font-[1000]' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-green-200 font-(--my-font-weight)' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
+        <p className='bg-green-300 font-extrablack' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, perferendis!</p>
       </div>
+      
+      
     </>
 
 )
