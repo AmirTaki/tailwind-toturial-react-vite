@@ -8,17 +8,17 @@ function App() {
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
     
       <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='bg-amber-300 tracking-tighter'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        <p className='bg-blue-300 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
+        <p className='h-20 bg-amber-300 tracking-tighter line-clamp-3'>Lorem ipsum dolor, sit amet          consectetur adipisicing elit. Facilis odit repellat, asperiores temporibus ad molestiae totam modi impedit illo fugiat at veniam tenetur. Alias, distinctio eius esse cumque dolore temporibus autem accusamus illum recusandae vitae eligendi soluta quis officiis tenetur harum eveniet non ratione incidunt aut? Nihil iure soluta dolor in rerum, a, tempora quia officiis aspernatur assumenda architecto laudantium iste culpa, beatae explicabo tenetur eos voluptas reiciendis odio aut mollitia. Unde similique magni quidem? Exercitationem sed dignissimos, sunt dicta ab nihil? Nemo magni in, dignissimos ullam temporibus ea recusandae molestias atque fuga iure quis nihil repudiandae, quasi accusamus magnam.</p>
+      </div>
+    
+ 
+        {/* <p className='bg-blue-300 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
         <p className='bg-red-300 tracking-normal'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
         <p className='bg-green-300 tracking-wide'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
         <p className='bg-pink-300 tracking-wider'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
         <p className='bg-orange-300 tracking-widest'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
         <p className='bg-emerald-300 tracking-[.30em]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        
-      </div>
-    
- 
+         */}
       
       
     </>
