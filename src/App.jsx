@@ -5,9 +5,9 @@ function App() {
     
     <>    
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>color </h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-decoration-line </h1>
     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>colors text & background</h1>
+      {/* <h1 className='bg-blue-900  text-white my-4 text-center'>colors text & background</h1>
       <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
         <p className='text-red-50 bg-gray-900'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
         <p className='text-red-100 bg-gray-800'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
@@ -20,13 +20,19 @@ function App() {
         <p className='text-red-800 bg-gray-100'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
         <p className='text-red-900 bg-gray-50'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
       </div>
-   
+    */}
     
-      <h1 className='bg-blue-900  text-white my-4 text-center'>colors dark</h1>
-      <div data-theme="dark" className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='dark:text-red-50 dark:bg-gray-900   text-blue-500 bg-white'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
+          <p className='text-red-500 underline my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-blue-500 overline my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-green-500 line-through my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-yellow-500 no-underline my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+      
       </div>
    
+    
+     
 
 
 
