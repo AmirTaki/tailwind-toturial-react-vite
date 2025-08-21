@@ -4,22 +4,36 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>list-style-position</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
     
       <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
-        <ul className='bg-red-300 list-inside border-l-amber-900  border-l-4 list-decimal' >
-          <li>list-style-position</li>
-          <li>1/2 cup of olive oil</li>
-          <li>3lb of celery</li>
-        </ul>
-
-        <ul className='bg-green-300 list-outside  border-l-amber-900  border-l-4 list-decimal '>
+        <ul className='bg-red-300  list-disc' >
           <li>list-style-position</li>
           <li>1/2 cup of olive oil</li>
           <li>3lb of celery</li>
         </ul>
       </div>
+            <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+
+      <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
+        <ul className='bg-yellow-300  list-decimal' >
+          <li>list-style-position</li>
+          <li>1/2 cup of olive oil</li>
+          <li>3lb of celery</li>
+        </ul>
+      </div>
+
+                  <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+
+      <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
+        <ul className='bg-green-300  list-none' >
+          <li>list-style-position</li>
+          <li>1/2 cup of olive oil</li>
+          <li>3lb of celery</li>
+        </ul>
+      </div>
+
     
  
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
