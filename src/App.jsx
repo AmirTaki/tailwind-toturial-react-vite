@@ -4,40 +4,42 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>text wrap</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-indent</h1>
 
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Allowing text to wrap</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
       <div className="flex items-center justify-center  ">
-          <div className="  text-wrap  bg-gray-300  justify-center gap-4 mx-2  w-90 border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <h3>Beloved Manhattan soup stand closes</h3>
-            <p>New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.</p>
+          <div className="w-96  bg-gray-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
+            <p className='indent-13'>
+              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+            </p>
           </div>
       </div>    
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing text from wrapping</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using negative values</h1>
       <div className="flex items-center justify-center  ">
-          <div className="  text-nowrap  bg-gray-300  justify-center gap-4 mx-2  w-90 border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <h3>Beloved Manhattan soup stand closes</h3>
-            <p>New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.</p>
+          <div className="w-96  bg-gray-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
+            <p className='-indent-13'>
+              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+            </p>
           </div>
       </div>    
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Balanced text wrapping</h1>
+   
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
       <div className="flex items-center justify-center  ">
-          <div className="  text-balance  bg-gray-300  justify-center gap-4 mx-2  w-90 border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <h3>Beloved Manhattan soup stand closes</h3>
-            <p>New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.</p>
+          <div className="w-96  bg-gray-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
+            <p className='-indent-[50%]'>
+              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+            </p>
           </div>
       </div>    
-  
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Pretty text wrapping</h1>
       <div className="flex items-center justify-center  ">
-          <div className="  text-pretty  bg-gray-300  justify-center gap-4 mx-2  w-90 border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <h3>Beloved Manhattan soup stand closes</h3>
-            <p>New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.</p>
+          <div className="w-96  bg-green-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
+            <p className='indent-[50%]'>
+              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+            </p>
           </div>
       </div>    
+   
   
 
 
