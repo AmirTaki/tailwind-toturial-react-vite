@@ -4,29 +4,29 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>line-height</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>list-style-position</h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
     
-      <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='bg-amber-300 text-sm/6'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='bg-red-300 text-lg/9'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='bg-blue-300 text-md/8'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+      <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
+        <ul className='bg-red-300 line-inside border-l-amber-900  border-l-4' >
+          <li>list-style-position</li>
+          <li>1/2 cup of olive oil</li>
+          <li>3lb of celery</li>
+        </ul>
+
+        <ul className='bg-green-300 list-outside  border-l-amber-900  border-l-4'>
+          <li>list-style-position</li>
+          <li>1/2 cup of olive oil</li>
+          <li>3lb of celery</li>
+        </ul>
       </div>
     
  
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Setting independently Leading-number </h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     
-      <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='bg-amber-300 text-md leading-4 '>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='bg-red-300   text-md leading-9'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='bg-blue-300  text-md leading-11'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-      </div>
- 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Removing the leading</h1>
-      
-      <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='bg-red-300   text-md leading-none'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-      </div>
     </>
 
 )
