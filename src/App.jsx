@@ -4,23 +4,31 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>text-underline-offset</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text trasform</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>uppercasing text</h1>
 
     
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='text-red-500 underline my-5 decoration-green-700  underline-offset-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-        
-          <p className='text-blue-500 overline my-5 decoration-inherit -underline-offset-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-      
-          <p className='text-green-500 line-through my-5 decoration-blue-900  underline-offset-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-        
-          <p className='text-yellow-500 underline decoration-green-700 my-5 -underline-offset-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-          <p className='text-yellow-500 underline decoration-green-700 my-5 -nderline-offset-[20px] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-      
-          <p className='text-pink-500 line-through decoration-wavy decoration-black  my-5 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-      
+          <p className='uppercase'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+      </div>
+   
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Lowercasing text</h1>
+      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
+          <p className='lowercase'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+      </div>
+   
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Capitalizing text</h1>
+      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
+          <p className='capitalize'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+      </div>
+   
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Resetting text casing</h1>
+      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
+          <p className='normal-case'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
       </div>
    
     
