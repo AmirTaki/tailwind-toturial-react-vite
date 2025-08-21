@@ -24,10 +24,11 @@ function App() {
     
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='text-red-500 underline my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-          <p className='text-blue-500 overline my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
-          <p className='text-green-500 line-through my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-red-500 underline my-5 decoration-green-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-blue-500 overline my-5 decoration-inherit'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-green-500 line-through my-5 decoration-transparent '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
           <p className='text-yellow-500 no-underline my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-pink-500 line-through decoration-current   my-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
       
       </div>
    
