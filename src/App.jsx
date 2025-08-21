@@ -4,34 +4,24 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>text trasform</h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>uppercasing text</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text overflow</h1>
 
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='uppercase'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Adding an ellipsis</h1>    
+      <div className="    bg-gray-300  justify-center gap-4 mx-2 ">
+          <p className='truncate'>The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.</p>
       </div>
-   
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Lowercasing text</h1>
-      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='lowercase'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+  
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Adding an ellipsis</h1>    
+      <div className="    bg-gray-300  justify-center gap-4 mx-2  ">
+          <p className=' text-ellipsis overflow-hidden'>The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.</p>
       </div>
-   
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Capitalizing text</h1>
-      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='capitalize'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Clipping text</h1>    
+      <div className="    bg-gray-300  justify-center gap-4 mx-2  ">
+          <p className=' text-clip overflow-hidden'>The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.</p>
       </div>
-   
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Resetting text casing</h1>
-      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='normal-case'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
-      </div>
-   
-    
+  
      
 
 
