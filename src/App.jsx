@@ -4,23 +4,29 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>letter-spacing</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>line-height</h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
     
       <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='h-20 bg-amber-300 tracking-tighter line-clamp-3'>Lorem ipsum dolor, sit amet          consectetur adipisicing elit. Facilis odit repellat, asperiores temporibus ad molestiae totam modi impedit illo fugiat at veniam tenetur. Alias, distinctio eius esse cumque dolore temporibus autem accusamus illum recusandae vitae eligendi soluta quis officiis tenetur harum eveniet non ratione incidunt aut? Nihil iure soluta dolor in rerum, a, tempora quia officiis aspernatur assumenda architecto laudantium iste culpa, beatae explicabo tenetur eos voluptas reiciendis odio aut mollitia. Unde similique magni quidem? Exercitationem sed dignissimos, sunt dicta ab nihil? Nemo magni in, dignissimos ullam temporibus ea recusandae molestias atque fuga iure quis nihil repudiandae, quasi accusamus magnam.</p>
+        <p className='bg-amber-300 text-sm/6'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='bg-red-300 text-lg/9'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='bg-blue-300 text-md/8'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
       </div>
     
  
-        {/* <p className='bg-blue-300 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        <p className='bg-red-300 tracking-normal'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        <p className='bg-green-300 tracking-wide'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        <p className='bg-pink-300 tracking-wider'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        <p className='bg-orange-300 tracking-widest'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-        <p className='bg-emerald-300 tracking-[.30em]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, quia?</p>
-         */}
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Setting independently Leading-number </h1>
+    
+      <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
+        <p className='bg-amber-300 text-md leading-4 '>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='bg-red-300   text-md leading-9'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+        <p className='bg-blue-300  text-md leading-11'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+      </div>
+ 
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Removing the leading</h1>
       
-      
+      <div className="flex flex-col  bg-gray-300  justify-center gap-4 mx-2 ">
+        <p className='bg-red-300   text-md leading-none'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
+      </div>
     </>
 
 )
