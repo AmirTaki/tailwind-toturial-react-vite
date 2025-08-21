@@ -5,34 +5,45 @@ function App() {
     
     <>    
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example </h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-align </h1>
     
-      <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
-        <ul className='bg-red-300  list-disc' >
-          <li>list-style-position</li>
-          <li>1/2 cup of olive oil</li>
-          <li>3lb of celery</li>
-        </ul>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-center</h1>
+      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
+        <p>
+          So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+        </p>
       </div>
-            <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-
-      <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
-        <ul className='bg-yellow-300  list-decimal' >
-          <li>list-style-position</li>
-          <li>1/2 cup of olive oil</li>
-          <li>3lb of celery</li>
-        </ul>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-left</h1>
+      <div className="  text-left  bg-red-300  justify-center gap-4 mx-2 ">
+        <p>
+          So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+        </p>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-right</h1>
+      <div className="  text-right  bg-blue-300  justify-center gap-4 mx-2 ">
+        <p>
+          So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+        </p>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>justifing text</h1>
+      <div className="   flex bg-green-300  justify-center gap-4 mx-2 ">
+        <p className='text-justify'>
+          So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+        </p>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'> text start</h1>
+      <div className="   flex bg-yellow-300  justify-center gap-4 mx-2 ">
+        <p className='text-start'>
+          So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+        </p>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'> text end</h1>
+      <div className="   flex bg-orange-300  justify-center gap-4 mx-2 ">
+        <p className='text-end'>
+          So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
+        </p>
       </div>
 
-                  <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-
-      <div className="flex flex-row  bg-gray-300  justify-center gap-4 mx-2 ">
-        <ul className='bg-green-300  list-none' >
-          <li>list-style-position</li>
-          <li>1/2 cup of olive oil</li>
-          <li>3lb of celery</li>
-        </ul>
-      </div>
 
     
  
