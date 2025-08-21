@@ -5,36 +5,22 @@ function App() {
     
     <>    
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>text-decoration-thickness </h1>
-    
-      {/* <h1 className='bg-blue-900  text-white my-4 text-center'>colors text & background</h1>
-      <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-        <p className='text-red-50 bg-gray-900'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-100 bg-gray-800'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-200 bg-gray-700'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-300 bg-gray-600'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-400 bg-gray-500'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-500 bg-gray-400'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-600 bg-gray-300'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-700 bg-gray-200'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-800 bg-gray-100'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-        <p className='text-red-900 bg-gray-50'>So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.</p>
-      </div>
-    */}
+      <h1 className='bg-blue-900  text-white my-4 text-center'>text-underline-offset</h1>
+
     
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <div className="  text-center  bg-gray-300  justify-center gap-4 mx-2 ">
-          <p className='text-red-500 underline my-5 decoration-green-700 decoration-solid decoration-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-red-500 underline my-5 decoration-green-700  underline-offset-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
         
-          <p className='text-blue-500 overline my-5 decoration-inherit decoration-double decoration-from-font'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-blue-500 overline my-5 decoration-inherit -underline-offset-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
       
-          <p className='text-green-500 line-through my-5 decoration-blue-900  decoration-dotted decoration-3 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-green-500 line-through my-5 decoration-blue-900  underline-offset-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
         
-          <p className='text-yellow-500 underline decoration-green-700 my-5 decoration-dashed decoration-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-yellow-500 underline decoration-green-700 my-5 -underline-offset-10 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-yellow-500 underline decoration-green-700 my-5 -nderline-offset-[20px] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
       
-          <p className='text-pink-500 line-through decoration-wavy decoration-black  my-5 decoration-[4px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
+          <p className='text-pink-500 line-through decoration-wavy decoration-black  my-5 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam.</p>
       
-
       </div>
    
     
