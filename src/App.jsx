@@ -4,56 +4,26 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>background-attachment</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>
+background-clip</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Fixing the background image</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
     
-      <div className="overflow-scroll  bg-fixed h-80 bg-[url(https://images.unsplash.com/photo-1549088521-94b6502fec3d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D)]">
-      
-        <h1 className='text-white'>My trip to the summit</h1>
-        <h4 className='text-gray-300'>November 16, 2021 · 4 min read</h4>
-        <p className='text-gray-400'>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-      </div>
-  
-        <h1 className='bg-blue-900  text-white my-4 text-center'>Scrolling with the container</h1>
 
-      <div className="overflow-scroll bg-local h-80 bg-[url(https://images.unsplash.com/photo-1549088521-94b6502fec3d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D)]">
-      
-        <h1 className='text-white'>My trip to the summit</h1>
-        <h4 className='text-gray-300'>November 16, 2021 · 4 min read</h4>
-        <p className='text-gray-400'>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-      </div>
   
- 
-        <h1 className='bg-blue-900  text-white my-4 text-center'>Scrolling with the viewport</h1>
-
-      <div className="overflow-scroll bg-scroll h-80 bg-[url(https://images.unsplash.com/photo-1549088521-94b6502fec3d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D)]">
-      
-        <h1 className='text-white'>My trip to the summit</h1>
-        <h4 className='text-gray-300'>November 16, 2021 · 4 min read</h4>
-        <p className='text-gray-400'>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
-        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+      <div className="flex bg-amber-300 justify-around items-center ">       
+        <div class="border-4 h-20 w-20 bg-indigo-500 bg-clip-border p-3 "></div>
+        <div class="border-4 h-20 w-20 bg-indigo-500 bg-clip-padding p-3"></div>
+        <div class="border-4 h-20 w-20 bg-indigo-500 bg-clip-content p-3"></div>
       </div>
-  
  
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Cropping to text</h1>
+        <div className="flex justify-around items-center ">       
+          <p class="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent ...">
+            Hello world
+          </p>
+      </div>
+ 
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     
