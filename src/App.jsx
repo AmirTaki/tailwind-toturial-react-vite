@@ -4,26 +4,30 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>
-background-clip</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>background-color</h1>
 
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
-    
-
   
-      <div className="flex bg-amber-300 justify-around items-center ">       
-        <div class="border-4 h-20 w-20 bg-indigo-500 bg-clip-border p-3 "></div>
-        <div class="border-4 h-20 w-20 bg-indigo-500 bg-clip-padding p-3"></div>
-        <div class="border-4 h-20 w-20 bg-indigo-500 bg-clip-content p-3"></div>
+      <div className="flex bg-gray-200 justify-around items-center ">       
+        <button class="bg-blue-500 text-white p-2 rounded-xl">Button A</button>
+        <button class="bg-cyan-500 text-white p-2 rounded-xl">Button B</button>
+        <button class="bg-pink-500 text-white p-2 rounded-xl">Button C</button>
       </div>
  
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Cropping to text</h1>
-        <div className="flex justify-around items-center ">       
-          <p class="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent ...">
-            Hello world
-          </p>
+  
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Changing the opacity</h1>
+  
+      <div className="flex bg-gray-200 justify-around items-center ">       
+        <button class="bg-sky-500/100 text-white p-2 rounded-xl">Button A</button>
+        <button class="bg-sky-500/75 text-white p-2 rounded-xl">Button B</button>
+        <button class="bg-sky-500/50 text-white p-2 rounded-xl">Button C</button>
+        <button class="bg-sky-500/25 text-white p-2 rounded-xl">Button D</button>
       </div>
  
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     
