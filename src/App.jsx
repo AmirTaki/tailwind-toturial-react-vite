@@ -4,66 +4,29 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>background-image</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>background-origin</h1>
 
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
   
-      <div className="flex h-130 bg-gray-200 justify-around items-center bg-[url(https://cdn.pixabay.com/photo/2016/07/17/19/10/background-1524540_1280.jpg)]">       
-  
-      </div>
- 
-  
- 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Adding a linear gradient </h1>
-
-      <div className="flex flex-col gap-2 ">
-        <div class="h-14 bg-linear-to-r from-cyan-500 to-blue-500"></div>
-        <div class="h-14 bg-linear-to-t from-sky-500 to-indigo-500"></div>
-        <div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500"></div>
-        <div class="h-14 bg-linear-65 from-purple-500 to-pink-500"></div>```
-      </div>
-
-
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Adding a radial gradient</h1>
-
-      <div className="flex flex-row gap-2 items-center justify-center ">
-        <div class="size-18 rounded-full bg-radial from-pink-400 from-40% to-fuchsia-700"></div>
-        <div class="size-18 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%"></div>
-        <div class="size-18 rounded-full bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"></div>
-
-      </div>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Adding a conic gradient</h1>
-
-      <div className="flex flex-row gap-2 items-center justify-center ">
-        <div class="size-24 rounded-full bg-conic from-blue-600 to-sky-400 to-50%"></div>
-        <div class="size-24 rounded-full bg-conic-180 from-indigo-600 via-indigo-50 to-indigo-600"></div>
-        <div class="size-24 rounded-full bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700"></div>
-      </div>
-
-
      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Setting gradient color stops</h1>
-      
-      <div className="flex flex-row gap-2 items-center justify-center ">
-        <div className="w-full h-20 bg-gradient-to-l from-indigo-500 via-purple-500 to-pink-500"></div>
+ 
+  
+ 
+
+      <div className="flex flex-row gap-2 ">
+        <div class=" h-100 w-100 object-cover border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)] bg-origin-border p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)] bg-origin-padding p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)] bg-origin-content p-3 ..."></div>
       </div>
+
+      
+
       
       
       
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Changing interpolation mode</h1>
-      <div className="flex flex-col gap-2 ">
-        <div class="bg-linear-to-r/srgb from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/hsl from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/oklab from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/oklch from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/longer from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/shorter from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/increasing from-indigo-500 to-teal-400 h-20" ></div>
-        <div class="bg-linear-to-r/decreasing from-indigo-500 to-teal-400 h-20" ></div>
-      </div>
-      
-      
-      
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
     
