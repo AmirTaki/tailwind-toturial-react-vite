@@ -4,7 +4,7 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>background-origin</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>background-position</h1>
 
       <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
   
@@ -14,10 +14,26 @@ function App() {
  
 
       <div className="flex flex-row gap-2 ">
-        <div class=" h-100 w-100 object-cover border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)] bg-origin-border p-3 ..."></div>
-        <div class=" h-100 w-100 object-cover border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)] bg-origin-padding p-3 ..."></div>
-        <div class=" h-100 w-100 object-cover border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)] bg-origin-content p-3 ..."></div>
+        <div class=" h-100 w-100 object-contain bg-top-left border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover bg-top border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover bg-top-right border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
       </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+
+      <div className="flex flex-row gap-2 ">
+        <div class=" h-100 w-100 object-contain bg-left border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover bg-center border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover bg-right border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+
+      <div className="flex flex-row gap-2 ">
+        <div class=" h-100 w-100 object-contain bg-bottom-left border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover bg-bottom border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+        <div class=" h-100 w-100 object-cover bg-bottom-right border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+      <div class="h-170 w-full object-contain  border-4 bg-[url(https://images.unsplash.com/photo-1548913344-66177da9425e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D)]  p-3 ..."></div>
 
       
 
