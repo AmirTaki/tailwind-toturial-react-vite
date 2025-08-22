@@ -4,41 +4,69 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>text-indent</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>white-spacen</h1>
 
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Normal</h1>
+      <div className="bg-blue-500 mx-2">
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
-      <div className="flex items-center justify-center  ">
-          <div className="w-96  bg-gray-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <p className='indent-13'>
-              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
-            </p>
-          </div>
-      </div>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using negative values</h1>
-      <div className="flex items-center justify-center  ">
-          <div className="w-96  bg-gray-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <p className='-indent-13'>
-              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
-            </p>
-          </div>
-      </div>    
+          <p className="whitespace-normal">Hey everyone!
+  It's almost 2022       and we still don't know if there             are aliens living among us, or do we? Maybe the person writing this is an alien.
+  You will never know.</p>     
+      </div>
    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using a custom value</h1>
-      <div className="flex items-center justify-center  ">
-          <div className="w-96  bg-gray-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <p className='-indent-[50%]'>
-              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
-            </p>
-          </div>
-      </div>    
-      <div className="flex items-center justify-center  ">
-          <div className="w-96  bg-green-300  justify-center gap-4 mx-2  border-l-2 border-l-red-500 border-r-2 border-r-red-500">
-            <p className='indent-[50%]'>
-              So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I was a marine biologist.
-            </p>
-          </div>
-      </div>    
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>No Wrap</h1>
+      <div className="bg-red-500 mx-2 ">
+
+          <p className="whitespace-nowrap">Hey everyone!
+  It's almost 2022       and we still don't know if there             are aliens living among us, or do we? Maybe the person writing this is an alien.
+  You will never know.</p>     
+      </div>
+   
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Pre</h1>
+      <div className="bg-yellow-500 mx-2 ">
+
+          <p className="whitespace-pre">Hey everyone!<br></br>
+  It's almost 2022       and we still don't know if there             are aliens living among us, or do we? Maybe the person writing this is an alien.
+  <br></br>You will never know.</p>     
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>PreLine</h1>
+      <div className="bg-green-500 mx-2 ">
+        <p className='whitespace-pre-line'>Hey everyone!
+          It's almost 2022            and we still don't know if there
+
+          You will never know.
+          
+        </p>
+      </div>
+   
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>PreWrap</h1>
+      <div className="bg-pink-500 mx-2 ">
+        <p className='whitespace-pre-wrap'>Hey everyone!
+          It's almost 2022            and we still don't know if there
+
+          You will never know.
+          
+        </p>
+      </div>
+   
+    
+   
+   
+    
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Break Spaces</h1>
+      <div className="bg-amber-500 mx-2 ">
+        <p className='whitespace-break-spaces'>Hey everyone!
+          It's almost 2022            and we still don't know if there
+
+          You will never know.
+          
+        </p>
+      </div>
+   
+    
    
   
 
@@ -46,7 +74,6 @@ function App() {
 
     
  
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
