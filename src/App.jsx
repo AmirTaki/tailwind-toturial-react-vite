@@ -4,35 +4,22 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>background-repeat</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>background-size</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Filling the container</h1>
   
      
- 
+      <div className="h-100 w-100 bg-cover bg-[url(https://images.unsplash.com/photo-1549001799-6e14a59da830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D)]"></div>
   
  
 
- 
-      <div className="bg-repeat h-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RgynkAFiPMO8RbxnMneb4h0rUVqEHFSQoA90yGTfiQnzzPjbm_FuPTn1P1rzSWwIOHI&usqp=CAU)]"></div>
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Repeating horizontally</h1>
-      <div className="bg-repeat-x h-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RgynkAFiPMO8RbxnMneb4h0rUVqEHFSQoA90yGTfiQnzzPjbm_FuPTn1P1rzSWwIOHI&usqp=CAU)]"></div>
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Repeating vertically</h1>
-      <div className="bg-repeat-y h-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RgynkAFiPMO8RbxnMneb4h0rUVqEHFSQoA90yGTfiQnzzPjbm_FuPTn1P1rzSWwIOHI&usqp=CAU)]"></div>
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing clipping</h1>
-      <div className="bg-repeat-space h-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RgynkAFiPMO8RbxnMneb4h0rUVqEHFSQoA90yGTfiQnzzPjbm_FuPTn1P1rzSWwIOHI&usqp=CAU)]"></div>
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing clipping and gaps</h1>
-      <div className="bg-repeat-round h-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RgynkAFiPMO8RbxnMneb4h0rUVqEHFSQoA90yGTfiQnzzPjbm_FuPTn1P1rzSWwIOHI&usqp=CAU)]"></div>
-      
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Disabling repeating</h1>
-      <div className="bg-no-repeat h-50 bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RgynkAFiPMO8RbxnMneb4h0rUVqEHFSQoA90yGTfiQnzzPjbm_FuPTn1P1rzSWwIOHI&usqp=CAU)]"></div>
-      
-      <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Filling without cropping</h1>
+      <div className="h-100 w-100 bg-contain bg-no-repeat bg-[url(https://images.unsplash.com/photo-1549001799-6e14a59da830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D)]"></div>
+
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using the default size</h1>
+      <div className="h-100 w-100 bg-auto bg-no-repeat bg-[url(https://images.unsplash.com/photo-1549001799-6e14a59da830?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D)]"></div>
+
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
