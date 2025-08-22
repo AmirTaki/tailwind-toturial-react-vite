@@ -4,32 +4,33 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>hyphens</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>content</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing hyphenation</h1>
-      <div className="bg-blue-200 mx-2 w-50">
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
+      <div className="bg-blue-100 mx-2">
 
-          <p className="hyphens-none">
-            Lorem ipsum &shy; dolor sit amet consectetur, &shy;adipisicing elit. Illo est fugiat explicabo cumque quia recusandae ad, soluta laboriosam saepe voluptatum corrupti eveniet expedita, quam nisi eligendi quidem, numquam aspernatur? Dolores.</p>     
+        <p>
+          Higher resolution means more than just a better-quality image. With a
+          Retina 6K display, <a class="text-blue-600 after:content-['_↗']" href="...">
+          Pro Display XDR</a> gives you nearly 40 percent more screen real estate than
+          a 5K display.
+        </p>
+
+      </div>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Referencing an attribute value</h1>
+      <div className="bg-red-100 mx-2">
+       <p before = "hello world"  className="before:content-[attr(before)]"></p>
       </div>
    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing hyphenation</h1>
-      <div className="bg-blue-200 mx-2 w-50 overflow-hidden">
-
-          <p className="hyphens-manual">
-            Lorem ipsum dolor &shy;sit amet consectetur, a&shy;dipisicing elit.&shy; Illo est fugiat explicabo&shy; cumque quia recusandae ad, soluta laboriosam &shy;&shy; &shy; saepe&shy; voluptatum corrupti eveniet expedita, quam nisi eligendi quidem, numquam aspernatur? Dolores.</p>     
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Using spaces and underscores</h1>
+      <div className="bg-green-100 mx-2">
+       <p  className="before:content-['hello_world!']"></p>
       </div>
-   
-   
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing hyphenation</h1>
-      <div className="bg-blue-200 mx-2 w-50 overflow-hidden">
-
-          <p className="hyphens-none">
-            Lorem ipsum dolor sit amet consectetur&shy;, adipisicing elit. Illo est fugiat explicabo cumque quia recusandae ad, &shy;soluta laboriosam saepe voluptatum corrupti eveniet&shy; expedita, quam nisi eligendi quidem, numquam aspernatur? Dolores.</p>     
+      <div className="bg-yellow-100 mx-2">
+       <p  className="before:content-['hello\_world!']"></p>
       </div>
    
   
-    
  
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
