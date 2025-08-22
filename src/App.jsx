@@ -4,32 +4,53 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>content</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>background-attachment</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Basic example</h1>
-      <div className="bg-blue-100 mx-2">
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Fixing the background image</h1>
+    
+      <div className="overflow-scroll  bg-fixed h-80 bg-[url(https://images.unsplash.com/photo-1549088521-94b6502fec3d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D)]">
+      
+        <h1 className='text-white'>My trip to the summit</h1>
+        <h4 className='text-gray-300'>November 16, 2021 · 4 min read</h4>
+        <p className='text-gray-400'>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+      </div>
+  
+        <h1 className='bg-blue-900  text-white my-4 text-center'>Scrolling with the container</h1>
 
-        <p>
-          Higher resolution means more than just a better-quality image. With a
-          Retina 6K display, <a class="text-blue-600 after:content-['_↗']" href="...">
-          Pro Display XDR</a> gives you nearly 40 percent more screen real estate than
-          a 5K display.
-        </p>
+      <div className="overflow-scroll bg-local h-80 bg-[url(https://images.unsplash.com/photo-1549088521-94b6502fec3d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D)]">
+      
+        <h1 className='text-white'>My trip to the summit</h1>
+        <h4 className='text-gray-300'>November 16, 2021 · 4 min read</h4>
+        <p className='text-gray-400'>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+      </div>
+  
+ 
+        <h1 className='bg-blue-900  text-white my-4 text-center'>Scrolling with the viewport</h1>
 
+      <div className="overflow-scroll bg-scroll h-80 bg-[url(https://images.unsplash.com/photo-1549088521-94b6502fec3d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D)]">
+      
+        <h1 className='text-white'>My trip to the summit</h1>
+        <h4 className='text-gray-300'>November 16, 2021 · 4 min read</h4>
+        <p className='text-gray-400'>Maybe we can live without libraries, people like you and me. Maybe. Sure, we're too old to change the world, but what about that kid, sitting down, opening a book, right now, in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat and the Five Chinese Brothers? Doesn't HE deserve better?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
+        <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis numquam vero eaque, possimus incidunt beatae quia esse recusandae eius odio, sit atque, dignissimos similique error explicabo quis! Repellat, iusto?</p>
       </div>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Referencing an attribute value</h1>
-      <div className="bg-red-100 mx-2">
-       <p before = "hello world"  className="before:content-[attr(before)]"></p>
-      </div>
-   
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Using spaces and underscores</h1>
-      <div className="bg-green-100 mx-2">
-       <p  className="before:content-['hello_world!']"></p>
-      </div>
-      <div className="bg-yellow-100 mx-2">
-       <p  className="before:content-['hello\_world!']"></p>
-      </div>
-   
   
  
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
