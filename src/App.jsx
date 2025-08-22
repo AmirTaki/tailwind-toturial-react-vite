@@ -4,74 +4,31 @@ function App() {
   return (
     
     <>    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>white-spacen</h1>
+      <h1 className='bg-blue-900  text-white my-4 text-center'>hyphens</h1>
 
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Normal</h1>
-      <div className="bg-blue-500 mx-2">
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing hyphenation</h1>
+      <div className="bg-blue-200 mx-2 w-50">
 
-          <p className="whitespace-normal">Hey everyone!
-  It's almost 2022       and we still don't know if there             are aliens living among us, or do we? Maybe the person writing this is an alien.
-  You will never know.</p>     
+          <p className="hyphens-none">
+            Lorem ipsum &shy; dolor sit amet consectetur, &shy;adipisicing elit. Illo est fugiat explicabo cumque quia recusandae ad, soluta laboriosam saepe voluptatum corrupti eveniet expedita, quam nisi eligendi quidem, numquam aspernatur? Dolores.</p>     
       </div>
    
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>No Wrap</h1>
-      <div className="bg-red-500 mx-2 ">
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing hyphenation</h1>
+      <div className="bg-blue-200 mx-2 w-50 overflow-hidden">
 
-          <p className="whitespace-nowrap">Hey everyone!
-  It's almost 2022       and we still don't know if there             are aliens living among us, or do we? Maybe the person writing this is an alien.
-  You will never know.</p>     
+          <p className="hyphens-manual">
+            Lorem ipsum dolor &shy;sit amet consectetur, a&shy;dipisicing elit.&shy; Illo est fugiat explicabo&shy; cumque quia recusandae ad, soluta laboriosam &shy;&shy; &shy; saepe&shy; voluptatum corrupti eveniet expedita, quam nisi eligendi quidem, numquam aspernatur? Dolores.</p>     
       </div>
    
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Pre</h1>
-      <div className="bg-yellow-500 mx-2 ">
+   
+      <h1 className='bg-blue-900  text-white my-4 text-center'>Preventing hyphenation</h1>
+      <div className="bg-blue-200 mx-2 w-50 overflow-hidden">
 
-          <p className="whitespace-pre">Hey everyone!<br></br>
-  It's almost 2022       and we still don't know if there             are aliens living among us, or do we? Maybe the person writing this is an alien.
-  <br></br>You will never know.</p>     
+          <p className="hyphens-none">
+            Lorem ipsum dolor sit amet consectetur&shy;, adipisicing elit. Illo est fugiat explicabo cumque quia recusandae ad, &shy;soluta laboriosam saepe voluptatum corrupti eveniet&shy; expedita, quam nisi eligendi quidem, numquam aspernatur? Dolores.</p>     
       </div>
-      <h1 className='bg-blue-900  text-white my-4 text-center'>PreLine</h1>
-      <div className="bg-green-500 mx-2 ">
-        <p className='whitespace-pre-line'>Hey everyone!
-          It's almost 2022            and we still don't know if there
-
-          You will never know.
-          
-        </p>
-      </div>
-   
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>PreWrap</h1>
-      <div className="bg-pink-500 mx-2 ">
-        <p className='whitespace-pre-wrap'>Hey everyone!
-          It's almost 2022            and we still don't know if there
-
-          You will never know.
-          
-        </p>
-      </div>
-   
-    
-   
-   
-    
-      <h1 className='bg-blue-900  text-white my-4 text-center'>Break Spaces</h1>
-      <div className="bg-amber-500 mx-2 ">
-        <p className='whitespace-break-spaces'>Hey everyone!
-          It's almost 2022            and we still don't know if there
-
-          You will never know.
-          
-        </p>
-      </div>
-   
-    
    
   
-
-
-
     
  
       <h1 className='bg-blue-900  text-white my-4 text-center'></h1>
